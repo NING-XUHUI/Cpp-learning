@@ -1,0 +1,3 @@
+/Users/ningxuhui/Desktop/UIUC C++ code/Heap Memory/Heap Memory Puzzle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ningxuhui/Desktop/UIUC C++ code/Heap Memory/Heap Memory Puzzle/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ningxuhui/Desktop/UIUC C++ code/Heap Memory/Heap Memory Puzzle/cmake-build-debug/CMakeFiles/Heap_Memory_Puzzle.dir

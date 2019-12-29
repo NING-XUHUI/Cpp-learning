@@ -1,0 +1,3 @@
+/Users/ningxuhui/Desktop/UIUC C++ code/Heap Memory/Week2Challenge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ningxuhui/Desktop/UIUC C++ code/Heap Memory/Week2Challenge/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ningxuhui/Desktop/UIUC C++ code/Heap Memory/Week2Challenge/cmake-build-debug/CMakeFiles/Week2Challenge.dir
