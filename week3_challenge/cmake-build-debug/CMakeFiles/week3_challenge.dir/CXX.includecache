@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ningxuhui/Desktop/week3_challenge/main.cpp
+cstdio
+-
+cstdlib
+-
+iostream
+-
+string
+-
+
