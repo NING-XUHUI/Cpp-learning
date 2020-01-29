@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ningxuhui/Desktop/week3_challenge/main.cpp" "/Users/ningxuhui/Desktop/week3_challenge/cmake-build-debug/CMakeFiles/week3_challenge.dir/main.cpp.o"
+  "/Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge/main.cpp" "/Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge/cmake-build-debug/CMakeFiles/week3_challenge.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

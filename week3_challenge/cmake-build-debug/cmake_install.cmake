@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ningxuhui/Desktop/week3_challenge
+# Install script for directory: /Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ningxuhui/Desktop/week3_challenge/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
