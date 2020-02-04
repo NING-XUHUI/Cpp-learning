@@ -41,7 +41,7 @@ class RAM{
 private:
   RAM_Type type;
   unsigned int frequency;//MHz
-  unsigned int size;//GB
+  Unsigned int size;//GB
 
 public:
   RAM(RAM_Type t,int f,int s){
@@ -137,6 +137,7 @@ int main(){
   CPU a(P6,300,2.8);
   a.Run();
   a.Stop();
+  
   cout<<"*****************"<<endl;
 
   RAM b(DDR3,1600,8);
@@ -154,6 +155,7 @@ int main(){
 
   my_computer.Run();
   my_computer.Stop();
+  
   
   return 0;
 }

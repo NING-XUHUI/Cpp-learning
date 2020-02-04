@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+class SavingsAccount{
+
+private:
+  int id;
+  double balance;
+  double rate;
+  int lastDate;
+  double
+  
+  double
+  
+  
+};
+
+int main(){
+  
+  return 0;
+}
