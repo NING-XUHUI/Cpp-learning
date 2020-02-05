@@ -139,12 +139,12 @@ int main(){
   a.Stop();
   
   cout<<"*****************"<<endl;
-
+  
   RAM b(DDR3,1600,8);
   b.Run();
   b.Stop();
   cout<<"*****************"<<endl;
-
+  
   CD_ROM c(SATA,2,built_in);
   c.Run();
   c.Stop();

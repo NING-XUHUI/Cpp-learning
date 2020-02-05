@@ -1,0 +1,5 @@
+pointer->func.cpp:42:17: error: invalid operands to binary
+      expression ('const char [5]' and 'int')
+  cout =  "Min:"<<res<<endl;
+          ~~~~~~^ ~~~
+1 error generated.
