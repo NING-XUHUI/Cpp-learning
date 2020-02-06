@@ -1,0 +1,28 @@
+#include<iostream>
+
+using namespace std;
+
+class Array{
+private:
+  int *p,k;
+  float *s;
+public:
+  Array(int *ptr,int n);
+  int fun(int n);
+  void sum();
+  void show();
+  ～Array();
+};
+
+Array::Array(int* ptr,int n){
+  p = new int(ptr);
+  k = n;
+  s = new float(0);
+}
+
+int main(){
+
+  
+
+  return 0;
+}
