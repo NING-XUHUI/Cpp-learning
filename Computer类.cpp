@@ -21,7 +21,7 @@ public:
     voltage = v;
     cout<<"构造类一个CPU！"<<endl;
   }
-  ~CPU(){cout<<"析构了一个CPU！"<<endl;}  
+  ~CPU(){cout<<"析构了一个CPU！"<<endl;}
   CPU_Rank getRank()const{return rank;}
   int getFrequency()const{return frequency;}
   float getVoltage()const{return voltage;}
@@ -33,7 +33,7 @@ public:
 
   void Run(){cout<<"CPU开始运行！"<<endl;}
   void Stop(){cout<<"CPU停止运行！"<<endl;}
-  
+ 
 };
 
 enum RAM_Type{DDR2 = 2,DDR3,DDR4};
