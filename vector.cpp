@@ -15,7 +15,7 @@ int main(){
   unsigned n;
   cout<<"n = "<<endl;
   cin>>n;
-
+  
   vector<double>arr(n);
   cout<<"Please input "<<n<<"real numbers:"<<endl;
 

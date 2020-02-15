@@ -21,14 +21,9 @@ void sort(int *p,int n){
   }
 }
 
-
-
-
 int main(){
-
   int n,r;
   cin>>n>>r;
-
   int p[n];
   for(int i = 0;i<n;i++){
     cin>>p[i];

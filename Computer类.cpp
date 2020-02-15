@@ -21,7 +21,7 @@ public:
     voltage = v;
     cout<<"构造类一个CPU！"<<endl;
   }
-  ~CPU(){cout<<"析构了一个CPU！"<<endl;}
+  ~CPU(){cout<<"析构了一个CPU！"<<endl;}  
   CPU_Rank getRank()const{return rank;}
   int getFrequency()const{return frequency;}
   float getVoltage()const{return voltage;}
@@ -29,6 +29,7 @@ public:
   void setRank(CPU_Rank r){rank = r;}
   void setFrequency(int f){frequency = f;}
   void setVoltage(float v){voltage = v;}
+
 
   void Run(){cout<<"CPU开始运行！"<<endl;}
   void Stop(){cout<<"CPU停止运行！"<<endl;}
@@ -41,7 +42,7 @@ class RAM{
 private:
   RAM_Type type;
   unsigned int frequency;//MHz
-  Unsigned int size;//GB
+  unsigned int size;//GB
 
 public:
   RAM(RAM_Type t,int f,int s){
@@ -137,7 +138,7 @@ int main(){
   CPU a(P6,300,2.8);
   a.Run();
   a.Stop();
-  
+
   cout<<"*****************"<<endl;
   
   RAM b(DDR3,1600,8);
