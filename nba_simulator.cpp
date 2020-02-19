@@ -26,14 +26,24 @@ public:
   int tag;
   string player_name;
   int choose,three_rate,two_rate;
-  int score;
-  int shoot;
-  int made;
-  Player(string name,int cho,int thr_rate,int tw_rate,int t):player_name(name),tag(t),choose(cho),three_rate(thr_rate),two_rate(tw_rate){}
+  int total_made;
+  int three_made;
+  int totoal_shoot;
+  Player(string name,int cho,int thr_rate,int tw_rate,int t):player_name(name),tag(t),choose(cho),three_rate(thr_rate),two_rate(tw_rate){
+    total_made = 0;
+     three_made = 0;
+    totoal_shoot = 0;
+  }
   void shoot();
   void dunk();
   void updateScore(int s);
+  void printInformation();
 };
+
+void Player::printInformation(){
+  cout<<player_name<<":  得分"<<(three_made*3+(total_made-three_made)*2)<<"出手"<<total_made<<"/"<<totoal_shoot<<" "<<endl;
+}
+
 
 void Player::updateScore(int s){
   if(tag == 1){
@@ -46,27 +56,32 @@ void Player::shoot(){
 
   int a = rand()%100;
   int b = rand()%100;
-
+  this->totoal_shoot++;
   if(a >= 0 && a <= this->choose){
     cout<<this->player_name<<"三分出手"<<endl;
     if(b>=0 && b <= three_rate){
       cout<<"我的三分箭，是地狱的火焰!!"<<endl;
       cout<<"三分命中！"<<endl;
+      this->three_made++;
+      this->total_made++;
       this->updateScore(3);
     }else{cout<<"框都给你干歪咯"<<endl;}
   }else{
     cout<<this->player_name<<"中距离出手"<<endl;
     if(b>=0 && b<= two_rate){
       cout<<"两分到手!"<<endl;
+      this->total_made++;
       this->updateScore(2);
     }else{cout<<"框都给你干歪咯"<<endl;}
   }
 }
 
 void Player::dunk(){
+  this->totoal_shoot++;
   int b = rand()%100;
   if(b >= 0 && b <= two_rate){
     cout<<this->player_name<<"力劈华山的一记暴扣!!"<<endl;
+    this->total_made++;
     this->updateScore(2);
   }
   else{cout<<this->player_name<<"惨遭框血帽！"<<endl;}
@@ -76,7 +91,7 @@ void Player::dunk(){
 int main(){
   srand((unsigned int)time(0)*10);
 
-  Player James("詹姆斯",100,100,100,1);
+  Player James("詹姆斯",10,51,37,1);
   Player Love("勒夫",38,33,33,1);
   Player TT("汤普森",0,0,54,1);
   Player Irving("欧文",22,41,51,1);
@@ -106,7 +121,7 @@ int main(){
     cout<<endl;
     cout<<"现在比分  "<<CLE<<team1_score<<" : "<<GD<<team2_score<<endl;
     cout<<endl;
-    delay_ms(100000);
+    delay_ms(10000);
     int y =  rand()%100;
 
     if(y >= 0 && y <= 34)
@@ -119,7 +134,7 @@ int main(){
       Love.shoot();
     else
       TT.dunk();
-    delay_ms(100000);
+    delay_ms(10000);
     cout<<endl;
     sum_time -= 36;
     cout<<"现在比分  "<<CLE<<team1_score<<" : "<<GD<<team2_score<<endl;
@@ -127,6 +142,14 @@ int main(){
   }
   cout<<"比赛结束"<<endl;
 
+  Player players[10] = {James,Love,Irving,TT,JR,Curry,Thompson,Looney,Green,Durant};
+
+  cout<<"球员数据"<<endl;
+
+  for(Player a : players){
+    a.printInformation();
+  }
 
   return 0;
 }
+
