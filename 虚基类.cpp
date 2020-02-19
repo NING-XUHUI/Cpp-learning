@@ -33,7 +33,8 @@ int main(){
   Derived d(1);
   d.var0 = 2;
   d.fun0();
-  
-  
+
   return 0;
 }
+
+
