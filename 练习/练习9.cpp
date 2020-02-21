@@ -1,53 +1,57 @@
-/*
-设计评选优秀教师和优秀学生候选人的程序。如果学生的分数大于90，则可评为优秀学生；如果教师发表的论文数大于3，则可以评委优秀教师。
-*/
-
 #include<iostream>
-#include<string>
-class Test{
-pravite:
-  string name;
-  enum {STUDENT,TEACHER}mode;
-  union{
-    char grade;
-    int numberOfPaper;
-  };
-public:
-  Test(string name,char grade):name(name),mode(STUDENT),grade(grade){}
-  Test(string name,int numberOfPaper):name(name),mode(TEACHER),numberOfPaper(numberOfPaper){}
-  void show();
-  int ifGood();
-};
-
-int Test::ifGood(){
-  switch(mode){
-  case STUDENT:
-    if(grade>90)
-      return 1;
-    else
-      return 0;
-    break;
-  case TEACHER:
-    if(numberOfPaper>3)
-      return 1;
-    else
-      return 0;
-    break;
-  }
-}
-
-void Test::show(){
-  cout<<name<<":";
-  if(this->ifGood)
-    cout<<"可以评优";
-  else
-    cout<<"不能评优";
-}
-
 using namespace std;
 
-int main(){
-  Test
+class Base{
+protected:
+  char name[8];//姓名
+  int num;//存放分数或论文数
+public:
+  Base();
+  void print();//功能函数，输出数据成员
+  virtual int Isgood() = 0;//纯虚函数
+};
+
+Base::Base(){
+  cin>>name;
+}
+
+void Base::print(){
+  cout<<name<<endl;
+}
+
+class Student:public Base{
+public:
+  Student():Base(){cin>>Base::num;}
+  int Isgood();
+};
+
+int Student::Isgood(){
+  if(num > 90)
+    return 1;
 
   return 0;
 }
+
+class Teacher:public Base{
+public:
+  Teacher():Base(){cin>>Base::num;}
+  int Isgood();
+};
+
+int Teacher::Isgood(){
+  if(num > 3)
+    return 1;
+
+  return 0;
+}
+
+int main(){
+  Student s[3];
+
+  for(Student ss:s){
+    if(ss.Isgood())
+      ss.print();
+  }
+
+  return 0;
+} 
