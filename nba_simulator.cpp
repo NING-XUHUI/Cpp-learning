@@ -8,14 +8,17 @@ using namespace std;
 #define CLE "骑士队"
 #define GD "勇士队"
 
-static int team1_score = 0;
-static int team2_score = 0;
+static int team1_score = 0;//统计队伍1的分数
+static int team2_score = 0;//统计队伍2的分数
 
+/*
 int RandNo1(){
   srand(time(0));
   return rand()%100;
 }
+*/
 
+//延时函数
 void delay_ms(int ms){
   clock_t start = clock();
   while(clock() - start < ms);
@@ -23,29 +26,27 @@ void delay_ms(int ms){
 
 class Player{
 public:
-  int tag;
-  string player_name;
-  int choose,three_rate,two_rate;
-  int total_made;
-  int three_made;
-  int totoal_shoot;
+  int tag;//球员标签，用于区分队伍
+  string player_name;//球员姓名
+  int choose,three_rate,two_rate;//球员出手选择，三分命中率、两分命中率
+  int total_made;//总命中数
+  int three_made;//三分命中数
+  int totoal_shoot;//总出手数
   Player(string name,int cho,int thr_rate,int tw_rate,int t):player_name(name),tag(t),choose(cho),three_rate(thr_rate),two_rate(tw_rate){
     total_made = 0;
      three_made = 0;
     totoal_shoot = 0;
   }
-  void shoot();
-  void dunk();
-  void updateScore(int s);
-  void printInformation();
+  void shoot();//投篮
+  void dunk();//灌篮
+  void updateScore(int s);//更新球队分数
+  void printInformation();//打印球员数据信息
 };
 
 void Player::printInformation(){
   cout<<player_name<<":  得分"<<(three_made*3+(total_made-three_made)*2)<<"出手"<<total_made<<"/"<<totoal_shoot<<" "<<endl;
 }
-
-
-void Player::updateScore(int s){
+void Player::updateScore(int s){//根据标签更新对应球队分数
   if(tag == 1){
     team1_score += s;
   }else
@@ -53,9 +54,8 @@ void Player::updateScore(int s){
 }
 
 void Player::shoot(){
-
-  int a = rand()%100;
-  int b = rand()%100;
+  int a = rand()%100;//出手选择随机数
+  int b = rand()%100;//命中率随机数
   this->totoal_shoot++;
   if(a >= 0 && a <= this->choose){
     cout<<this->player_name<<"三分出手"<<endl;
@@ -86,7 +86,6 @@ void Player::dunk(){
   }
   else{cout<<this->player_name<<"惨遭框血帽！"<<endl;}
 }
-
 
 int main(){
   srand((unsigned int)time(0)*10);
