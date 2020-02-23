@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/account.cpp">
+			<Option target="Bank_Account"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/account.h">
+			<Option target="Bank_Account"/>
+		</Unit>
 		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/main.cpp">
 			<Option target="Bank_Account"/>
 		</Unit>

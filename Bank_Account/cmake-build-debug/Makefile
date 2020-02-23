@@ -123,6 +123,33 @@ Bank_Account/fast:
 	$(MAKE) -f CMakeFiles/Bank_Account.dir/build.make CMakeFiles/Bank_Account.dir/build
 .PHONY : Bank_Account/fast
 
+account.o: account.cpp.o
+
+.PHONY : account.o
+
+# target to build an object file
+account.cpp.o:
+	$(MAKE) -f CMakeFiles/Bank_Account.dir/build.make CMakeFiles/Bank_Account.dir/account.cpp.o
+.PHONY : account.cpp.o
+
+account.i: account.cpp.i
+
+.PHONY : account.i
+
+# target to preprocess a source file
+account.cpp.i:
+	$(MAKE) -f CMakeFiles/Bank_Account.dir/build.make CMakeFiles/Bank_Account.dir/account.cpp.i
+.PHONY : account.cpp.i
+
+account.s: account.cpp.s
+
+.PHONY : account.s
+
+# target to generate assembly for a file
+account.cpp.s:
+	$(MAKE) -f CMakeFiles/Bank_Account.dir/build.make CMakeFiles/Bank_Account.dir/account.cpp.s
+.PHONY : account.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Bank_Account"
+	@echo "... account.o"
+	@echo "... account.i"
+	@echo "... account.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
