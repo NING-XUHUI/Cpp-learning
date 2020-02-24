@@ -27,11 +27,11 @@ public:
 
     return *this;
   }
-  
 
 };
 
 int main(){
 
   return 0;
-} 
+}
+
