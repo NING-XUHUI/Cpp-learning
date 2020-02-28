@@ -5,3 +5,5 @@
 #include "account.h"
 
 double SavingAccount::total = 0;
+
+SavingAccount::SavingAccount(double rate, double balance) : rate(rate), balance(balance) {}

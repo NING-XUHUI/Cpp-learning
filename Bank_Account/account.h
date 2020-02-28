@@ -7,6 +7,9 @@
 
 
 class SavingAccount {
+public:
+    SavingAccount(double rate, double balance);
+
 private:
     int id;//账号
     double  balance;//余额
