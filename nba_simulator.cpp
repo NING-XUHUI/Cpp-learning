@@ -3,7 +3,6 @@
 #include <string>
 #include <time.h>
 
-
 using namespace std;
 
 #define CLE "骑士队"
@@ -22,6 +21,7 @@ int RandNo1(){
 void delay_ms(unsigned long ms) {
   clock_t start = clock();
   while (clock() - start < ms)
+    ;
 }
 
 class Player {
@@ -110,8 +110,7 @@ int main() {
   Player Durant("杜兰特", 24, 45, 52, 2);
   Player Green("格林", 35, 31, 47, 2);
   Player Looney("鲁尼", 0, 0, 59, 2);
-  Looney.dunk()
-    Green.updateScore(1)
+
   cout << "比赛开始" << endl;
   int sum_time = 2880;
   cout << endl;
