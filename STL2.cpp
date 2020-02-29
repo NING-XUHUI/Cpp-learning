@@ -18,7 +18,9 @@ int main(){
   cout<<"降序排列:"<<endl;
   sort(a,a+8,greater<int>());
   for(int i = 0;i<8;i++)
-    cout<<a[i]<<" "
+    cout<<a[i]<<" ";
+
+  cout<<endl;
       
   return 0;
 }
