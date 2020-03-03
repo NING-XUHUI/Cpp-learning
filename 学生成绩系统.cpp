@@ -12,7 +12,6 @@ using namespace std;
 const int Max = 30;
 
 class Student;
-
 void setdata(Student &s);
 void count(Student &s);
 void sort(Student S[], int N);
