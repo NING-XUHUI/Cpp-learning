@@ -110,7 +110,7 @@ int main() {
   Player Durant("杜兰特", 24, 45, 52, 2);
   Player Green("格林", 35, 31, 47, 2);
   Player Looney("鲁尼", 0, 0, 59, 2);
-
+  
   cout << "比赛开始" << endl;
   int sum_time = 2880;
   cout << endl;
