@@ -4,7 +4,8 @@
 你需要实现的函数twoSum需要返回这两个数的下标, 并且第一个下标小于第二个下标。注意这里下标的范围是 0 到 n-1。
 */
 
-
+#include <vector>
+using namespace std;
 class Solution{
 public:
   /**
@@ -18,7 +19,8 @@ public:
     vector<int>re;
     for(i = 0;i < numbers.size();i++){
       for(j = i + 1; j <numbers.size();j++){
-	if((numbers[i] + numbers[j] == target)){
+	if((numbe#include <vector>
+        using namespace std;rs[i] + numbers[j] == target)){
 	  re.push_back(i);
 	  re.push_back(j);
 	  return re;

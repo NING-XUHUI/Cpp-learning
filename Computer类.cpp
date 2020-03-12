@@ -93,8 +93,8 @@ public:
 
   void Run() { cout << "CD_ROM开始运行！" << endl; }
   void Stop() { cout << "CD_ROM停止运行！" << endl; }
-};
 
+};
 class COMPUTER {
 private:
   CPU my_cpu;
@@ -130,29 +130,26 @@ COMPUTER::COMPUTER(CPU c, RAM r, CD_ROM cd, unsigned int s, unsigned int b)
 
   cout << "构造了一个COMPUTER！" << endl;
 }
-
 int main() {
   CPU a(P6, 300, 2.8);
   a.Run();
   a.Stop();
-
+  a.Run();
+  a.Stop();
   cout << "*****************" << endl;
-
   RAM b(DDR3, 1600, 8);
   b.Run();
   b.Stop();
   cout << "*****************" << endl;
-
   CD_ROM c(SATA, 2, built_in);
   c.Run();
   c.Stop();
   cout << "*****************" << endl;
-
   COMPUTER my_computer(a, b, c, 128, 10);
   cout << "*****************" << endl;
-
   my_computer.Run();
   my_computer.Stop();
-
+  a.Stop();
+   
   return 0;
 }

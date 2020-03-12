@@ -161,6 +161,5 @@ int main() {
   for (auto a : players) {
     a.printInformation();
   }
-
-  return 0;
+      return 0;
 }

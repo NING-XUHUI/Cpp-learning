@@ -23,6 +23,7 @@ public:
       ptr = ptr->next;
       i++;
     }
+
     node_vector.push_back(0);
     ptr = head;
     i = 0;
