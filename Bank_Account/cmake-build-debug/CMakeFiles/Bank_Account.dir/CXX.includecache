@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/main.cpp
-iostream
--
+/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/account.cpp
+account.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/account.h
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/Bank_Account/account.h
 
