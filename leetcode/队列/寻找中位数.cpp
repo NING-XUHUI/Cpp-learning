@@ -12,8 +12,8 @@
 
 class Data{
  private:
-  std::priority_queue<double,std::vector<double>,std::less<double>> big_heap;
-  std::priority_queue<double,std::vector<double>,std::greater<double>> small_heap;
+  std::priority_queue<double,std::vector<double>,std::less<double> > big_heap;
+  std::priority_queue<double,std::vector<double>,std::greater<double> > small_heap;
 public:
   void addNum(int num){
     if(big_heap.empty()){
