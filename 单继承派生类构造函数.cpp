@@ -1,4 +1,5 @@
 #include<iostream>
+#include<pool_alloc>
 
 using namespace std;
 
@@ -52,7 +53,6 @@ C::C(int i,int j):B(i),c(j){
 void C::pirnt()const{
   cout<<"C:"<<c<<endl;
 }
-
 
 int main(){
   C obj(5,6);

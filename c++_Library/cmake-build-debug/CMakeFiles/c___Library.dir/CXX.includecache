@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/c++_Library/Book.cpp
+Book.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/c++_Library/Book.h
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/c++_Library/Book.h
+string
+-
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/c++_Library/main.cpp
+iostream
+-
+Book.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/c++_Library/Book.h
+
