@@ -1,0 +1,8 @@
+//
+// Created by 宁旭晖 on 2020/4/3.
+//
+
+#ifndef STD_MANAGER_MANAGERVIEW_H
+#define STD_MANAGER_MANAGERVIEW_H
+
+#endif //STD_MANAGER_MANAGERVIEW_H
