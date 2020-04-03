@@ -17,7 +17,7 @@ public:
 
     void output_students_by_score();
 
-    void delete_student();
+    // void delete_student();
 
     void display_menu();
 

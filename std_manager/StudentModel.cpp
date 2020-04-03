@@ -22,5 +22,10 @@ void StudentModel::setScore(ui _score) {
     this->score = _score;
 }
 
+std::ostream &operator<<(std::ostream &os, const StudentModel &model) {
+    os << "id: " << model.id << " name: " << model.name << " age: " << model.age << " score: " << model.score;
+    return os;
+}
+
 
 

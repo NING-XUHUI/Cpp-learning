@@ -22,9 +22,12 @@ public:
         return all_stds;
     }
 
+    void add_student(StudentModel stu);
+
+
     ui generate_id() {
         ui new_id;
-        if (all_stds.size() > 1) {
+        if (!all_stds.empty()) {
             new_id = all_stds.back().getId() + 1;
         } else {
             new_id = 1;
@@ -32,13 +35,13 @@ public:
         return new_id;
     }
 
-    void remove_student(ui id){
+    /*void remove_student(ui id){
         for (const auto& stu : all_stds){
             if (stu.getId() == id){
                 all_stds.remove(stu);
             }
         }
-    }
+    }*/
 
     std::list<StudentModel> order_by_score();
 

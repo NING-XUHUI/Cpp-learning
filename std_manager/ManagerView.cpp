@@ -27,14 +27,36 @@ void ManagerView::select_memu() {
     } else if (number == 2) {
         this->output_student();
     } else if (number == 3) {
-        this->delete_student();
+        // this->delete_student();
     } else if (number == 4) {
     } else if (number == 5) {
-        this->output_students_by_score();
+        // this->output_students_by_score();
     }
 }
 
 void ManagerView::input_student() {
     string name;
+    ui age;
+    ui score;
+    cout << "请输入学生姓名:" << endl;
+    cin >> name;
+    cout << "请输入学生年龄:" << endl;
+    cin >> age;
+    cout << "请输入学生成绩:" << endl;
+    cin >> score;
+    manager.add_student(StudentModel(name, age, score));
 
+}
+
+void ManagerView::output_student() {
+    for (const auto& stu : manager.getAllStds()) {
+        cout << stu << endl;
+    }
+}
+
+void ManagerView::main() {
+    while (true){
+        display_menu();
+        select_memu();
+    }
 }

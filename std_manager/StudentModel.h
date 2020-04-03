@@ -8,6 +8,7 @@
 
 #include <string>
 #include <utility>
+#include <ostream>
 
 typedef unsigned int ui;
 
@@ -18,7 +19,7 @@ private:
     ui age;
     ui score;
 public:
-    StudentModel(ui _id, std::string _name, ui _age, ui _score) :
+    explicit StudentModel(std::string _name = " ", ui _age = 0, ui _score = 0, ui _id = 0) :
             id(_id), name(std::move(_name)), age(_age), score(_score) {}
 
     StudentModel(const StudentModel &stu) {
@@ -31,6 +32,8 @@ public:
     ui getId() const { return id; }
 
     std::string getName() const { return name; }
+
+    friend std::ostream &operator<<(std::ostream &os, const StudentModel &model);
 
     ui getAge() const { return age; }
 

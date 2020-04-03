@@ -9,3 +9,8 @@ std::list<StudentModel> ManagerController::order_by_score() {
 
     return new_list;
 }
+
+void ManagerController::add_student(StudentModel stu) {
+    stu.setId(this->generate_id());
+    all_stds.push_back(stu);
+}
