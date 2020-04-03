@@ -22,3 +22,5 @@ void StudentModel::setScore(ui _score) {
     this->score = _score;
 }
 
+
+

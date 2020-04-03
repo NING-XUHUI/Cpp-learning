@@ -21,6 +21,13 @@ public:
     StudentModel(ui _id, std::string _name, ui _age, ui _score) :
             id(_id), name(std::move(_name)), age(_age), score(_score) {}
 
+    StudentModel(const StudentModel &stu) {
+        id = stu.getId();
+        name = stu.getName();
+        age = stu.getAge();
+        score = stu.getAge();
+    }
+
     ui getId() const { return id; }
 
     std::string getName() const { return name; }
@@ -36,6 +43,7 @@ public:
     void setAge(ui _age);
 
     void setScore(ui _score);
+
 };
 
 
