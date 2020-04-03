@@ -22,9 +22,16 @@ public:
         return all_stds;
     }
 
+    /**
+     * 添加学生
+     * @param stu
+     */
     void add_student(StudentModel stu);
 
-
+    /**
+     * 自动生成id
+     * @return
+     */
     ui generate_id() {
         ui new_id;
         if (!all_stds.empty()) {
