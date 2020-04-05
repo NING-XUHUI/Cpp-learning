@@ -1,10 +1,14 @@
 #include <iostream>
 #include "ManagerView.h"
 
+/**
+ * @brief
+ * @return
+ *
+ */
 
-
-
-int main() {
+int main()
+{
     ManagerView v1;
     v1.main();
 }

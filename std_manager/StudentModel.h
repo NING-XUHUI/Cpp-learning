@@ -39,6 +39,7 @@ public:
 
     ui getScore() const { return score; }
 
+
     void setId(ui _id);
 
     void setName(std::string name);

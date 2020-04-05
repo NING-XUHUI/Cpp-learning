@@ -60,3 +60,7 @@ void ManagerView::main() {
         select_memu();
     }
 }
+
+void ManagerView::output_students_by_score() {
+
+}

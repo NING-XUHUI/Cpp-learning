@@ -5,22 +5,20 @@
 #ifndef STD_MANAGER_MANAGERCONTROLLER_H
 #define STD_MANAGER_MANAGERCONTROLLER_H
 
-#include "StudentModel.h"
 #include <list>
+#include "StudentModel.h"
 
 typedef unsigned int ui;
 
-class ManagerController {
-private:
+class ManagerController
+{
+  private:
     std::list<StudentModel> all_stds;
-public:
-    ManagerController() {
-        all_stds = {};
-    }
 
-    const std::list<StudentModel> &getAllStds() const {
-        return all_stds;
-    }
+  public:
+    ManagerController() { all_stds = {}; }
+
+    const std::list<StudentModel> &getAllStds() const { return all_stds; }
 
     /**
      * 添加学生
@@ -32,11 +30,15 @@ public:
      * 自动生成id
      * @return
      */
-    ui generate_id() {
+    ui generate_id()
+    {
         ui new_id;
-        if (!all_stds.empty()) {
+        if (!all_stds.empty())
+        {
             new_id = all_stds.back().getId() + 1;
-        } else {
+        }
+        else
+        {
             new_id = 1;
         }
         return new_id;
@@ -51,8 +53,6 @@ public:
     }*/
 
     std::list<StudentModel> order_by_score();
-
 };
 
-
-#endif //STD_MANAGER_MANAGERCONTROLLER_H
+#endif  // STD_MANAGER_MANAGERCONTROLLER_H
