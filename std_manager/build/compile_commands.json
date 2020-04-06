@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/std_manager.dir/main.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/main.cpp",
+  "file": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/main.cpp"
+},
+{
+  "directory": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/std_manager.dir/StudentModel.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.cpp",
+  "file": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.cpp"
+},
+{
+  "directory": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/std_manager.dir/ManagerController.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerController.cpp",
+  "file": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerController.cpp"
+},
+{
+  "directory": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/std_manager.dir/ManagerView.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerView.cpp",
+  "file": "/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerView.cpp"
+}
+]
