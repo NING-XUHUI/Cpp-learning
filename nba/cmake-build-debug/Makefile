@@ -123,33 +123,6 @@ nba/fast:
 	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/build
 .PHONY : nba/fast
 
-Player.o: Player.cpp.o
-
-.PHONY : Player.o
-
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
-
-.PHONY : Player.i
-
-# target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/Player.cpp.i
-.PHONY : Player.cpp.i
-
-Player.s: Player.cpp.s
-
-.PHONY : Player.s
-
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/sourse/Player.o: src/sourse/Player.cpp.o
+
+.PHONY : src/sourse/Player.o
+
+# target to build an object file
+src/sourse/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/src/sourse/Player.cpp.o
+.PHONY : src/sourse/Player.cpp.o
+
+src/sourse/Player.i: src/sourse/Player.cpp.i
+
+.PHONY : src/sourse/Player.i
+
+# target to preprocess a source file
+src/sourse/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/src/sourse/Player.cpp.i
+.PHONY : src/sourse/Player.cpp.i
+
+src/sourse/Player.s: src/sourse/Player.cpp.s
+
+.PHONY : src/sourse/Player.s
+
+# target to generate assembly for a file
+src/sourse/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/src/sourse/Player.cpp.s
+.PHONY : src/sourse/Player.cpp.s
+
+src/sourse/viewController.o: src/sourse/viewController.cpp.o
+
+.PHONY : src/sourse/viewController.o
+
+# target to build an object file
+src/sourse/viewController.cpp.o:
+	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/src/sourse/viewController.cpp.o
+.PHONY : src/sourse/viewController.cpp.o
+
+src/sourse/viewController.i: src/sourse/viewController.cpp.i
+
+.PHONY : src/sourse/viewController.i
+
+# target to preprocess a source file
+src/sourse/viewController.cpp.i:
+	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/src/sourse/viewController.cpp.i
+.PHONY : src/sourse/viewController.cpp.i
+
+src/sourse/viewController.s: src/sourse/viewController.cpp.s
+
+.PHONY : src/sourse/viewController.s
+
+# target to generate assembly for a file
+src/sourse/viewController.cpp.s:
+	$(MAKE) -f CMakeFiles/nba.dir/build.make CMakeFiles/nba.dir/src/sourse/viewController.cpp.s
+.PHONY : src/sourse/viewController.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... nba"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/sourse/Player.o"
+	@echo "... src/sourse/Player.i"
+	@echo "... src/sourse/Player.s"
+	@echo "... src/sourse/viewController.o"
+	@echo "... src/sourse/viewController.i"
+	@echo "... src/sourse/viewController.s"
 .PHONY : help
 
 

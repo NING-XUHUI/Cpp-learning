@@ -80,13 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/Player.cpp">
-			<Option target="nba"/>
-		</Unit>
-		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/Player.h">
-			<Option target="nba"/>
-		</Unit>
 		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/main.cpp">
+			<Option target="nba"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/head/Player.h">
+			<Option target="nba"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/head/viewController.h">
+			<Option target="nba"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/Player.cpp">
+			<Option target="nba"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/viewController.cpp">
 			<Option target="nba"/>
 		</Unit>
 		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/nba/CMakeLists.txt">

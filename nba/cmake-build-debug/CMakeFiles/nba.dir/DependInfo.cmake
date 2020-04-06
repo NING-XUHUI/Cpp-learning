@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/Player.cpp" "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles/nba.dir/Player.cpp.o"
   "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/main.cpp" "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles/nba.dir/main.cpp.o"
+  "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/Player.cpp" "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles/nba.dir/src/sourse/Player.cpp.o"
+  "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/viewController.cpp" "/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles/nba.dir/src/sourse/viewController.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

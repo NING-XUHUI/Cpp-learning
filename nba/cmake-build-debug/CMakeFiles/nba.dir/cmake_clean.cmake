@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/nba.dir/Player.cpp.o"
   "CMakeFiles/nba.dir/main.cpp.o"
+  "CMakeFiles/nba.dir/src/sourse/Player.cpp.o"
+  "CMakeFiles/nba.dir/src/sourse/viewController.cpp.o"
   "nba"
   "nba.pdb"
 )

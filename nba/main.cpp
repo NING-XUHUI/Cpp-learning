@@ -1,6 +1,9 @@
 #include <iostream>
+#include "./src/head/viewController.h"
+int main()
+{
+    ViewController view;
+    view.main();
 
-int main() {
-  std::cout << "Hello, World!" << std::endl;
-  return 0;
+    return 0;
 }

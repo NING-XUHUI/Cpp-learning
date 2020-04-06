@@ -3,4 +3,4 @@ project(nba)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(nba main.cpp Player.cpp Player.h)
+add_executable(nba main.cpp src/sourse/Player.cpp src/head/Player.h src/sourse/viewController.cpp src/head/viewController.h)

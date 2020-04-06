@@ -70,32 +70,47 @@ CMakeFiles/nba.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nba.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ningxuhui/Leon/github库/Cpp-learning/nba/main.cpp -o CMakeFiles/nba.dir/main.cpp.s
 
-CMakeFiles/nba.dir/Player.cpp.o: CMakeFiles/nba.dir/flags.make
-CMakeFiles/nba.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nba.dir/Player.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nba.dir/Player.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/nba/Player.cpp
+CMakeFiles/nba.dir/src/sourse/Player.cpp.o: CMakeFiles/nba.dir/flags.make
+CMakeFiles/nba.dir/src/sourse/Player.cpp.o: ../src/sourse/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nba.dir/src/sourse/Player.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nba.dir/src/sourse/Player.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/Player.cpp
 
-CMakeFiles/nba.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nba.dir/Player.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ningxuhui/Leon/github库/Cpp-learning/nba/Player.cpp > CMakeFiles/nba.dir/Player.cpp.i
+CMakeFiles/nba.dir/src/sourse/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nba.dir/src/sourse/Player.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/Player.cpp > CMakeFiles/nba.dir/src/sourse/Player.cpp.i
 
-CMakeFiles/nba.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nba.dir/Player.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ningxuhui/Leon/github库/Cpp-learning/nba/Player.cpp -o CMakeFiles/nba.dir/Player.cpp.s
+CMakeFiles/nba.dir/src/sourse/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nba.dir/src/sourse/Player.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/Player.cpp -o CMakeFiles/nba.dir/src/sourse/Player.cpp.s
+
+CMakeFiles/nba.dir/src/sourse/viewController.cpp.o: CMakeFiles/nba.dir/flags.make
+CMakeFiles/nba.dir/src/sourse/viewController.cpp.o: ../src/sourse/viewController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nba.dir/src/sourse/viewController.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nba.dir/src/sourse/viewController.cpp.o -c /Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/viewController.cpp
+
+CMakeFiles/nba.dir/src/sourse/viewController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nba.dir/src/sourse/viewController.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/viewController.cpp > CMakeFiles/nba.dir/src/sourse/viewController.cpp.i
+
+CMakeFiles/nba.dir/src/sourse/viewController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nba.dir/src/sourse/viewController.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ningxuhui/Leon/github库/Cpp-learning/nba/src/sourse/viewController.cpp -o CMakeFiles/nba.dir/src/sourse/viewController.cpp.s
 
 # Object files for target nba
 nba_OBJECTS = \
 "CMakeFiles/nba.dir/main.cpp.o" \
-"CMakeFiles/nba.dir/Player.cpp.o"
+"CMakeFiles/nba.dir/src/sourse/Player.cpp.o" \
+"CMakeFiles/nba.dir/src/sourse/viewController.cpp.o"
 
 # External object files for target nba
 nba_EXTERNAL_OBJECTS =
 
 nba: CMakeFiles/nba.dir/main.cpp.o
-nba: CMakeFiles/nba.dir/Player.cpp.o
+nba: CMakeFiles/nba.dir/src/sourse/Player.cpp.o
+nba: CMakeFiles/nba.dir/src/sourse/viewController.cpp.o
 nba: CMakeFiles/nba.dir/build.make
 nba: CMakeFiles/nba.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable nba"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ningxuhui/Leon/github库/Cpp-learning/nba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable nba"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nba.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
