@@ -9,6 +9,8 @@
 
 int main()
 {
+    int a;
+
     ManagerView v1;
     v1.main();
 }

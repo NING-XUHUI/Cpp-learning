@@ -14,6 +14,9 @@ void StudentModel::setId(ui _id)
     this->id = _id;
 }
 
+
+/// @brief
+/// @param _name
 void StudentModel::setName(std::string _name)
 {
     this->name = std::move(_name);

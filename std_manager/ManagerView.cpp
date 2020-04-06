@@ -17,7 +17,10 @@ void ManagerView::display_menu() {
     cout << "4) 修改学生" << endl;
     cout << "5) 按成绩升序排列" << endl;
 }
-
+/*!
+ * @brief
+ *
+ */
 void ManagerView::select_memu() {
     int number;
     cout << "请输入选项：";
