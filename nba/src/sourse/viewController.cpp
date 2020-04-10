@@ -14,6 +14,7 @@ void ViewController::showMenu()
     cout << "**********************" << endl;
     cout << "(1.自选球队对战" << endl;
     cout << "(2.自组球队对战" << endl;
+
     cout << "(3.查看球员数据" << endl;
     cout << "**********************" << endl;
 }
