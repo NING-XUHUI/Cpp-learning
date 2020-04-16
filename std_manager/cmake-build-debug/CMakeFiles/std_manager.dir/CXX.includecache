@@ -11,10 +11,10 @@ ManagerController.h
 /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerController.h
 
 /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerController.h
-StudentModel.h
-/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.h
 list
 -
+StudentModel.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.h
 
 /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerView.cpp
 ManagerView.h
@@ -27,6 +27,12 @@ StudentModel.h
 /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerView.h
 ManagerController.h
 /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/ManagerController.h
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.cpp
+StudentModel.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.h
+utility
+-
 
 /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/StudentModel.h
 string

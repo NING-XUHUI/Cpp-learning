@@ -14,7 +14,6 @@ class ManagerController
 {
   private:
     std::list<StudentModel> all_stds;
-
   public:
     ManagerController() { all_stds = {}; }
 
