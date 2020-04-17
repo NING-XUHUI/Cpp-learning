@@ -26,3 +26,8 @@ Book& Book::operator+=(double addPrice){
     this->price += addPrice;
     return *this;
 }
+std::ostream &operator<<(std::ostream &os, const Book &book) {
+  os << "name: " << book.name << " price: " << book.price
+     << " writer: " << book.writer;
+  return os;
+}

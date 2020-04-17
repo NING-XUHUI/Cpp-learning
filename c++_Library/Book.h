@@ -5,21 +5,24 @@
 #ifndef C___LIBRARY_BOOK_H
 #define C___LIBRARY_BOOK_H
 
-#include <stdio.h>
+#include <iostream>
 #include <string>
-class Book{
+#include <utility>
+class Book {
 public:
-    Book() = default;
-    explicit Book(const std::string n = " ",const double p = 0.0,const std::string w = " ")
-            :name(n),price(p),writer(w){ }
-    double getPrice()const;
-    std::string getName()const;
-    std::string getWriter()const;
-    void setPrice(double &newPrice);
-    Book& operator +=(double addPrice);
+  explicit Book(std::string n = " ", double p = 0.0,
+                std::string w = " ")
+      :name(std::move(n)), price(p),writer(std::move(w)) {}
+  double getPrice() const;
+  std::string getName() const;
+  std::string getWriter() const;
+  void setPrice(double &newPrice);
+  Book &operator+=(double addPrice);
+  friend std::ostream &operator<<(std::ostream &os, const Book &book);
+
 private:
-    std::string name;
-    double price;
-    std::string writer;
+  std::string name;
+  double price;
+  std::string writer;
 };
-#endif //C___LIBRARY_BOOK_H
+#endif // C___LIBRARY_BOOK_H
