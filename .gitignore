@@ -4,8 +4,6 @@
 *.bin
 *.txt
 *.out
-*.c
-*.cpp
 *.make
 *.check_cache
 c++_Library/build/CMakeFiles/CMakeOutput.log
