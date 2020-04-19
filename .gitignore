@@ -2,7 +2,6 @@
 *.json
 *.cmake
 *.bin
-*.txt
 *.out
 *.make
 *.check_cache
