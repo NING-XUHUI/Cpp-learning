@@ -123,6 +123,114 @@ Library/fast:
 	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
+Book.o: Book.cpp.o
+
+.PHONY : Book.o
+
+# target to build an object file
+Book.cpp.o:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Book.cpp.o
+.PHONY : Book.cpp.o
+
+Book.i: Book.cpp.i
+
+.PHONY : Book.i
+
+# target to preprocess a source file
+Book.cpp.i:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Book.cpp.i
+.PHONY : Book.cpp.i
+
+Book.s: Book.cpp.s
+
+.PHONY : Book.s
+
+# target to generate assembly for a file
+Book.cpp.s:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Book.cpp.s
+.PHONY : Book.cpp.s
+
+Date.o: Date.cpp.o
+
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+User.o: User.cpp.o
+
+.PHONY : User.o
+
+# target to build an object file
+User.cpp.o:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/User.cpp.o
+.PHONY : User.cpp.o
+
+User.i: User.cpp.i
+
+.PHONY : User.i
+
+# target to preprocess a source file
+User.cpp.i:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/User.cpp.i
+.PHONY : User.cpp.i
+
+User.s: User.cpp.s
+
+.PHONY : User.s
+
+# target to generate assembly for a file
+User.cpp.s:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/User.cpp.s
+.PHONY : User.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Library"
+	@echo "... Book.o"
+	@echo "... Book.i"
+	@echo "... Book.s"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
+	@echo "... User.o"
+	@echo "... User.i"
+	@echo "... User.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

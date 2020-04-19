@@ -80,6 +80,33 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/Book.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/Book.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/Date.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/Date.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/Menu.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/Menu.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/TP.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/User.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/User.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/Library/main.cpp">
 			<Option target="Library"/>
 		</Unit>
