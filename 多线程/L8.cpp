@@ -100,7 +100,7 @@ int main()
 
     std::thread mytObj1(mythread);
     std::thread mytObj2(mythread);
-    
+
     mytObj1.join();
     mytObj2.join();
     return 0;
