@@ -16,34 +16,35 @@ using namespace std;
 //        << g_v[1] << g_v[2] << endl;
 // }
 
-class A{
+class A {
 public:
-    //把收到的消息（玩家命令）入到一个队列的线程
-    void inMsgRecvQueue(){
-        for (int i = 0; i < 100000; i++)
-        {
-            cout << "inMsgRecvQueue()执行，插入一个元素"<<i<<endl;
-            msgRecvQueue.push_back(i);//数字i即为收到的命令，加入队列
-        }
+  //把收到的消息（玩家命令）入到一个队列的线程
+  void inMsgRecvQueue() {
+    for (int i = 0; i < 100000; i++) {
+      cout << "inMsgRecvQueue()执行，插入一个元素" << i << endl;
+      msgRecvQueue.push_back(i); //数字i即为收到的命令，加入队列
     }
-    //把数据从消息队列中取出的线程
-    void outMsgRecvQueue(){
-        for (int i = 0;i<100000;i++){
-            if(!msgRecvQueue.empty()){
-                //队列不为空
-                int command = msgRecvQueue.front();//返回第一个元素
-                msgRecvQueue.pop_front();//移除首个元素,但不返回
-                //这里就考虑处理数据。。。。。
+  }
+  //把数据从消息队列中取出的线程
+  void outMsgRecvQueue() {
+    for (int i = 0; i < 100000; i++) {
+      if (!msgRecvQueue.empty()) {
+        //队列不为空
+        int command = msgRecvQueue.front(); //返回第一个元素
+        msgRecvQueue.pop_front();           //移除首个元素,但不返回
+        cout << command << endl;
+        //这里就考虑处理数据。。。。。
 
-            }else {
-                //队列为空
-                cout <<"outMsgRecvQueue()执行，但目前消息队列为空" << i <<endl;
-            }
-        }
-        cout << "end" << endl;
+      } else {
+        //队列为空
+        cout << "outMsgRecvQueue()执行，但目前消息队列为空" << i << endl;
+      }
     }
+    cout << "end" << endl;
+  }
+
 private:
-    std::list<int> msgRecvQueue;//容器，专门代表玩家发来的命令
+  std::list<int> msgRecvQueue; //容器，专门代表玩家发来的命令
 };
 
 int main() {
@@ -81,13 +82,15 @@ int main() {
 
   //用成员函数作为线程入口
   //代码化解决问题：c++解决多线程保护共享数据但第一个概念“互斥量”⭐️
-  
-    A myobja;
-    std::thread myOutnMsgObj(&A::outMsgRecvQueue,&myobja);//第二个参数是引用,才能保证线程用的是同一个对象
-    std::thread myInMsgObj(&A::inMsgRecvQueue,&myobja);
 
-    myOutnMsgObj.join();
-    myInMsgObj.join();
+  A myobja;
+  std::thread myOutnMsgObj(
+      &A::outMsgRecvQueue,
+      &myobja); //第二个参数是引用,才能保证线程用的是同一个对象
+  std::thread myInMsgObj(&A::inMsgRecvQueue, &myobja);
+
+  myOutnMsgObj.join();
+  myInMsgObj.join();
 
   return 0;
 }
