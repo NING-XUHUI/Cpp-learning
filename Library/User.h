@@ -13,7 +13,6 @@
 #include <utility>
 #include <vector>
 #include <iterator>
-#include ""
 using namespace std;
 class User {
 private:
@@ -23,7 +22,6 @@ private:
     int bookNum;
 
 public:
-    vector<>
 
     User() : name("NULL"), id(0), passWard("123456"), bookNum(0) {}
     User(string n, ll i, string pw) : name(std::move(n)), id(i), passWard(std::move(pw)), bookNum(0) {}

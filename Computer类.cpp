@@ -102,6 +102,8 @@ private:
   CD_ROM my_cdrom;
   unsigned int storage_size; // GB
   unsigned int bandwidth;    // MB
+  //unsigned int bandwidth;
+  
 
 public:
   COMPUTER(CPU c, RAM r, CD_ROM cd, unsigned int s, unsigned int b);
