@@ -11,7 +11,7 @@ using namespace std;
  * std::lock_guard<std::muetex> sbguard(mutex,std::adopt_lock)
  * mutex::lock()
  * mutex::unlock()
- */ 
+ */
 
 
 class A
