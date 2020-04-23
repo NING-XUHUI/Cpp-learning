@@ -102,6 +102,6 @@ int main()
     std::thread mytObj2(mythread);
 
     mytObj1.join();
-    mytObj2.join();
+
     return 0;
 }
