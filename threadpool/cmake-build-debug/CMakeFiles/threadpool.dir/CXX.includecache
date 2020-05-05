@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/threadpool/main.cpp
+thread_pool.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/threadpool/thread_pool.h
+iostream
+-
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/threadpool/thread_pool.h
+atomic
+-
+condition_variable
+-
+functional
+-
+future
+-
+queue
+-
+stdexcept
+-
+thread
+-
+vector
+-
+

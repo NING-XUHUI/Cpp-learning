@@ -18,6 +18,7 @@ public:
   void outMsgRecvQueue(){
     for(int i = 0;i < 10000;i++){
       mymutex1.lock();
+
       if(!msgRecvQueue.empty()){
         int command = msgRecvQueue.front();
         msgRecvQueue.pop_front();

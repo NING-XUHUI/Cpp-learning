@@ -101,9 +101,6 @@
 		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/main.cpp">
 			<Option target="std_manager"/>
 		</Unit>
-		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/s.h">
-			<Option target="std_manager"/>
-		</Unit>
 		<Unit filename="/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

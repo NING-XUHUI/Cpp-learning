@@ -43,13 +43,13 @@ class ManagerController
         return new_id;
     }
 
-    /*void remove_student(ui id){
-        for (const auto& stu : all_stds){
-            if (stu.getId() == id){
-                all_stds.remove(stu);
-            }
-        }
-    }*/
+//    void remove_student(ui id){
+//        for (const auto& stu : all_stds){
+//            if (stu.getId() == id){
+//                all_stds.remove(stu);
+//            }
+//        }
+//    }
 
     std::list<StudentModel> order_by_score();
 };

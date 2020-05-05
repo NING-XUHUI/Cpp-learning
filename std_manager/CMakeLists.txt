@@ -3,4 +3,4 @@ project(std_manager)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(std_manager main.cpp StudentModel.cpp ManagerController.cpp ManagerController.h ManagerView.cpp ManagerView.h s.h)
+add_executable(std_manager main.cpp StudentModel.cpp ManagerController.cpp ManagerController.h ManagerView.cpp ManagerView.h)

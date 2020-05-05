@@ -11,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c13def8a-7f4f-40eb-bb41-456526365ca3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../多线程/L8.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程/L8.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../多线程/P9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程/P9.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="c13def8a-7f4f-40eb-bb41-456526365ca3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +59,7 @@
       <workItem from="1587349760157" duration="323000" />
       <workItem from="1587350118605" duration="115000" />
       <workItem from="1587573163701" duration="91000" />
+      <workItem from="1587837047015" duration="75000" />
     </task>
     <servers />
   </component>

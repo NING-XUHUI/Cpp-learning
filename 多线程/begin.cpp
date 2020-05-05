@@ -47,12 +47,12 @@ int main()
     // mytobj3.join();
 
     // cout<<"NB"<<endl;
-    // auto mylambda = [] {
-    //     cout<<"开始"<<endl;
-    //     cout<<"结束"<<endl;
-    // };
-    // thread t(mylambda);
-    // t.join();
+    auto mylambda = [] {
+        cout<<"开始"<<endl;
+        cout<<"结束"<<endl;
+    };
+    thread t(mylambda);
+    t.join();
     auto a = 0;
 
     cout << "NB" << endl;

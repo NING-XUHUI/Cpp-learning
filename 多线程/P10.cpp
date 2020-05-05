@@ -85,7 +85,7 @@ int main(int argc, const char **argv)
     // cout << "main"
     //      << " thread_id:" << std::this_thread::get_id() << endl;
     // std::future<int> res = std::async(std::launch::deferred, &A::mythread, &a,
-    //                                   par);  //创建一个线程并执行，绑定关系,流程不卡在这里
+    //                                   par);  //创建一个线程并执行，绑定关系,流程不卡在这里,deferred线程延迟执行，甚至不执行
     // cout << "continue....." << endl;
 
     // int def = 0;

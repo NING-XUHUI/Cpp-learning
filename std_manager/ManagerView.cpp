@@ -33,7 +33,7 @@ void ManagerView::select_memu() {
         // this->delete_student();
     } else if (number == 4) {
     } else if (number == 5) {
-        // this->output_students_by_score();
+        this->output_students_by_score();
     }
 }
 
@@ -51,7 +51,7 @@ void ManagerView::input_student() {
 
 }
 
-void ManagerView::output_student() {
+void ManagerView::output_student(std::list<StudentModel>) {
     for (const auto& stu : manager.getAllStds()) {
         cout << stu << endl;
     }
@@ -65,5 +65,6 @@ void ManagerView::main() {
 }
 
 void ManagerView::output_students_by_score() {
+
 
 }
