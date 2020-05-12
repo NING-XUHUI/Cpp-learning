@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/company/src/main.cpp
+worker_Manager.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/company/src/worker_Manager.h
+iostream
+-
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/company/src/worker_Manager.cpp
+worker_Manager.h
+/Users/ningxuhui/Leon/github库/Cpp-learning/company/src/worker_Manager.h
+
+/Users/ningxuhui/Leon/github库/Cpp-learning/company/src/worker_Manager.h
+
