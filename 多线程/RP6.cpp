@@ -24,6 +24,7 @@ public:
         msgRecvQueue.pop_front();
         mymutex1.unlock();
         cout << command << endl;
+
       }else{
         cout << "outMsgRecvQueue执行，但是目前消息队列为空" << i << endl;
       }
