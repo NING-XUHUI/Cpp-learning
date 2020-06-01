@@ -1,0 +1,29 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+  int ball[3];
+  for(int i = 0;i < 3;i++)
+    cin>>ball[i];
+
+  int n = ball[0];
+  for(int j = 1;j < 3;j++)
+    n ^= ball[j];
+
+  switch (n){
+  case ball[0]:
+    cout<<"A";
+    break;
+  case ball[1]:
+    cout<<"B";
+    break;
+  case ball[2]:
+    cout<<"C";
+    break;
+	  
+  }
+  
+  return 0;
+}

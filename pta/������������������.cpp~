@@ -1,0 +1,16 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+  int Intteger;
+  string s;
+  float f1;
+  float f2;
+
+  cin>>f1>>Intteger>>s>>f2;
+
+  cout<<s<<" "<<Intteger<<" "<<f1<<" "<<f2;
+
+  return 0;
+}

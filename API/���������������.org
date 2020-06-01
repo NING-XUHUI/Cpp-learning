@@ -1,0 +1,13 @@
+* 服务器编程
+** API函数
+*** socket()创建socket
+*** bind()绑定socket到ip地址和端口
+*** listen()服务器监听客户端的连接
+*** connect()客户端连接到服务器
+*** accept()应用程序接受完成3次握手的客户端连接
+*** send()recv(),write()read()机器间相互发送数据
+*** close()关闭socket
+*** gethostbyname()ghethostbyaddr()V4专有
+*** select()poll()处理多个连接的读、写和错误状态
+*** getsockopt()得到对应socket的选项值
+*** setsockopt()设置对应socket的选项值
