@@ -1,4 +1,4 @@
-"/Users/ningxuhui/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.86/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager
+"/Users/ningxuhui/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/cmake-build-debug

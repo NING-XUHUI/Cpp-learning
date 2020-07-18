@@ -21,6 +21,7 @@ public:
 
       if(!msgRecvQueue.empty()){
         int command = msgRecvQueue.front();
+
         msgRecvQueue.pop_front();
         mymutex1.unlock();
         cout << command << endl;
