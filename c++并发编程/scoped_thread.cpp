@@ -17,7 +17,9 @@ public:
     scoped_thread& operator=(scoped_thread const&) = delete;
 };
 
-
+void do_something_in_current_thread(){
+    cout << "do something in current thread" << endl;
+}
 
 struct func{
     int& i;
