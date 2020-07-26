@@ -1,3 +1,0 @@
-/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build/CMakeFiles/rebuild_cache.dir
-/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build/CMakeFiles/edit_cache.dir
-/Users/ningxuhui/Leon/github库/Cpp-learning/std_manager/build/CMakeFiles/std_manager.dir
