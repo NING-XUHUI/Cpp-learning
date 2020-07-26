@@ -1,3 +1,0 @@
-hello ! world !
-10
-b

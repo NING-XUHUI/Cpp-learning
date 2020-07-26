@@ -1,3 +1,0 @@
-/Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ningxuhui/Desktop/github库/Cpp-learning/week3_challenge/cmake-build-debug/CMakeFiles/week3_challenge.dir
