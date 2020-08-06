@@ -132,6 +132,14 @@ operator<<(ostream &os,const Point<type,dim>& pt)
     return os;
 }
 
+/**
+ * 从struct到class，布局成本是否增加？增加了多少？
+ * 答：没有增加，成员函数虽然出现在class内，但是不出现在object中，每一个非内联函数只会诞生一个函数实例。而内联函数则会在每一个使用者（模块）产生一个函数实例。
+ * 而c++在布局以及存取时间上面主要的额外负担是有virtual引起的包括：
+ * 1.virtual function 用以支持一个有效率的“执行期绑定”(runtime binding)
+ * 2.virtual base class 用以实现“多次出现在继承体系中的base class,有一个单一而被共享的实例”
+ */ 
+
 int main()
 {
     int a[3] = {1,2,3};
