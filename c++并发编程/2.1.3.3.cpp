@@ -28,6 +28,7 @@ struct func{
     }
 };
 
+
 void f(){
     int some_local_state = 0;
     func my_func(some_local_state);
