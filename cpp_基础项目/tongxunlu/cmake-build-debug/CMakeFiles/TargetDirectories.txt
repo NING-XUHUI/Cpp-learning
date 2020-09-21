@@ -1,0 +1,3 @@
+/Users/ningxuhui/Leon/github/Cpp-learning/cpp_基础项目/tongxunlu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ningxuhui/Leon/github/Cpp-learning/cpp_基础项目/tongxunlu/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ningxuhui/Leon/github/Cpp-learning/cpp_基础项目/tongxunlu/cmake-build-debug/CMakeFiles/tongxunlu.dir
