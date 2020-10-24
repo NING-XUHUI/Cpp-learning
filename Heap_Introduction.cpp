@@ -56,10 +56,10 @@ void Heap<T>::_insert(const T & key){
  void Heap<T>::_heapifyUp(int index){
    if(index > 1){
      if(item_[index] < item_[parent(index)]{
-	std::swap(item_[index],item_[parent(index)]);
+	           std::swap(item_[index],item_[parent(index)]);
 			     }
-		}
- }
+    }
+  }
 
    template <class T>
      void Heap<T>::removeMin(){
