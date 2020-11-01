@@ -46,4 +46,17 @@ int WINAPI WinMain(HINSTANCE hInstance,//应用程序实例句柄
     UpdateWindow(hwnd);
 
     //5.取消息
+    MSG msg;
+    while(1){
+        /*
+         * 
+         */
+
+        if(GetMessageW(&msg, NULL, 0, 0) == FALSE){
+            break;
+        }
+
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
+    }
 }
