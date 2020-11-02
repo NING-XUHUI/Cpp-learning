@@ -39,6 +39,7 @@ public:
     three_made = 0;
     totoal_shoot = 0;
   }
+
   void shoot();            //投篮
   void dunk();             //灌篮
   void updateScore(int s); //更新球队分数
