@@ -12,10 +12,10 @@ static int team1_score = 0; //统计队伍1的分数
 static int team2_score = 0; //统计队伍2的分数
 
 /*
-int RandNo1(){
+  int RandNo1(){
   srand(time(0));
   return rand()%100;
-}
+  }
 */
 //延时函数
 void delay_ms(unsigned long ms) {
@@ -33,8 +33,8 @@ public:
   int three_made;                   //三分命中数
   int totoal_shoot;                 //总出手数
   Player(string name, int cho, int thr_rate, int tw_rate, int t)
-      : player_name(name), tag(t), choose(cho), three_rate(thr_rate),
-        two_rate(tw_rate) {
+    : player_name(name), tag(t), choose(cho), three_rate(thr_rate),
+      two_rate(tw_rate) {
     total_made = 0;
     three_made = 0;
     totoal_shoot = 0;
@@ -111,7 +111,7 @@ int main() {
   Player Durant("杜兰特", 24, 45, 52, 2);
   Player Green("格林", 35, 31, 47, 2);
   Player Looney("鲁尼", 0, 0, 59, 2);
-  
+
   cout << "比赛开始" << endl;
   int sum_time = 2880;
   cout << endl;
@@ -155,12 +155,12 @@ int main() {
   cout << "比赛结束" << endl;
 
   Player players[10] = {James, Love,     Irving, TT,    JR,
-                        Curry, Thompson, Looney, Green, Durant};
+    Curry, Thompson, Looney, Green, Durant};
 
   cout << "球员数据" << endl;
 
   for (auto a : players) {
     a.printInformation();
   }
-      return 0;
+  return 0;
 }
