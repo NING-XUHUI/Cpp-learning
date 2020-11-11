@@ -35,6 +35,7 @@ int main(){
   int array[N];
   for(int i = 0;i<N;i++){
     cin>>array[i];
+    
   }
   print(array,N);
 
