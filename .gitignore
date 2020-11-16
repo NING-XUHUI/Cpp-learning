@@ -12,3 +12,4 @@
 *.exe
 *.cpp~
 *.internal
+.DS_Store
