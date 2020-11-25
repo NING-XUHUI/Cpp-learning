@@ -1,0 +1,904 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEPT_TIMEOUT	ftplib.c	71;"	d	file:
+Accept	_freecplus.cpp	/^bool CTcpServer::Accept()$/;"	f	class:CTcpServer	signature:()
+AddTime	_freecplus.cpp	/^bool AddTime(const char *in_stime,char *out_stime,const int timetvl,const char *fmt)$/;"	f	signature:(const char *in_stime,char *out_stime,const int timetvl,const char *fmt)
+AddTime	_freecplus.h	/^bool AddTime(const char *in_stime,char *out_stime,const int timetvl,const char *fmt=0);$/;"	p	signature:(const char *in_stime,char *out_stime,const int timetvl,const char *fmt=0)
+BUILDING_LIBRARY	ftplib.c	51;"	d	file:
+BackupLogFile	_freecplus.cpp	/^bool CLogFile::BackupLogFile()$/;"	f	class:CLogFile	signature:()
+CCmdStr	_freecplus.cpp	/^CCmdStr::CCmdStr()$/;"	f	class:CCmdStr	signature:()
+CCmdStr::CCmdStr	_freecplus.cpp	/^CCmdStr::CCmdStr()$/;"	f	class:CCmdStr	signature:()
+CCmdStr::CmdCount	_freecplus.cpp	/^int CCmdStr::CmdCount()$/;"	f	class:CCmdStr	signature:()
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,bool *value)$/;"	f	class:CCmdStr	signature:(const int inum,bool *value)
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,char *value,const int ilen)$/;"	f	class:CCmdStr	signature:(const int inum,char *value,const int ilen)
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,double *value)$/;"	f	class:CCmdStr	signature:(const int inum,double *value)
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,int *value)$/;"	f	class:CCmdStr	signature:(const int inum,int *value)
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,long *value)$/;"	f	class:CCmdStr	signature:(const int inum,long *value)
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,unsigned int *value)$/;"	f	class:CCmdStr	signature:(const int inum,unsigned int *value)
+CCmdStr::GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,unsigned long *value)$/;"	f	class:CCmdStr	signature:(const int inum,unsigned long *value)
+CCmdStr::SplitToCmd	_freecplus.cpp	/^void CCmdStr::SplitToCmd(const string buffer,const char *sepstr,const bool bdelspace)$/;"	f	class:CCmdStr	signature:(const string buffer,const char *sepstr,const bool bdelspace)
+CCmdStr::~CCmdStr	_freecplus.cpp	/^CCmdStr::~CCmdStr()$/;"	f	class:CCmdStr	signature:()
+CDA_DEF	db/mysql/_mysql.h	/^struct CDA_DEF       \/\/ 调用MySQL接口函数执行的结果。$/;"	s
+CDA_DEF	db/oracle/_ooci.h	/^struct CDA_DEF       \/\/ OCI接口函数执行的结果。$/;"	s
+CDA_DEF	db/postgresql/_postgresql.h	/^struct CDA_DEF       \/\/ 调用PostgreSQL接口函数执行的结果。$/;"	s
+CDA_DEF::message	db/mysql/_mysql.h	/^  char     message[2048];  \/\/ 执行SQL语句如果失败，存放错误描述信息。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::message	db/oracle/_ooci.h	/^  char     message[2048];  \/\/ 执行SQL语句如果失败，存放错误描述信息。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::message	db/postgresql/_postgresql.h	/^  char     message[2048];  \/\/ 执行SQL语句如果失败，存放错误描述信息。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::rc	db/mysql/_mysql.h	/^  int      rc;          \/\/ 返回值：0-成功，其它失败。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::rc	db/oracle/_ooci.h	/^  int      rc;          \/\/ 返回值：0-成功，其它失败。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::rc	db/postgresql/_postgresql.h	/^  int      rc;          \/\/ 返回值：0-成功，其它失败。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::rpc	db/mysql/_mysql.h	/^  unsigned long rpc;    \/\/ 如果是insert、update和delete，保存影响记录的行数，如果是select，保存结果集的行数。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::rpc	db/oracle/_ooci.h	/^  unsigned long rpc;    \/\/ 如果是insert、update和delete，保存影响记录的行数，如果是select，保存结果集的行数。$/;"	m	struct:CDA_DEF	access:public
+CDA_DEF::rpc	db/postgresql/_postgresql.h	/^  unsigned long rpc;    \/\/ 如果是insert、update和delete，保存影响记录的行数，如果是select，保存结果集的行数。$/;"	m	struct:CDA_DEF	access:public
+CDir	_freecplus.cpp	/^CDir::CDir()$/;"	f	class:CDir	signature:()
+CDir::CDir	_freecplus.cpp	/^CDir::CDir()$/;"	f	class:CDir	signature:()
+CDir::OpenDir	_freecplus.cpp	/^bool CDir::OpenDir(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild,bool bSort)$/;"	f	class:CDir	signature:(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild,bool bSort)
+CDir::ReadDir	_freecplus.cpp	/^bool CDir::ReadDir()$/;"	f	class:CDir	signature:()
+CDir::SetDateFMT	_freecplus.cpp	/^void CDir::SetDateFMT(const char *in_DateFMT)$/;"	f	class:CDir	signature:(const char *in_DateFMT)
+CDir::_OpenDir	_freecplus.cpp	/^bool CDir::_OpenDir(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild)$/;"	f	class:CDir	signature:(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild)
+CDir::initdata	_freecplus.cpp	/^void CDir::initdata()$/;"	f	class:CDir	signature:()
+CDir::~CDir	_freecplus.cpp	/^CDir::~CDir()$/;"	f	class:CDir	signature:()
+CFile	_freecplus.cpp	/^CFile::CFile()   \/\/ 类的构造函数$/;"	f	class:CFile	signature:()
+CFile::CFile	_freecplus.cpp	/^CFile::CFile()   \/\/ 类的构造函数$/;"	f	class:CFile	signature:()
+CFile::Close	_freecplus.cpp	/^void CFile::Close() $/;"	f	class:CFile	signature:()
+CFile::CloseAndRemove	_freecplus.cpp	/^bool CFile::CloseAndRemove()$/;"	f	class:CFile	signature:()
+CFile::CloseAndRename	_freecplus.cpp	/^bool CFile::CloseAndRename()$/;"	f	class:CFile	signature:()
+CFile::FFGETS	_freecplus.cpp	/^bool CFile::FFGETS(char *buffer,const int readsize,const char *endbz)$/;"	f	class:CFile	signature:(char *buffer,const int readsize,const char *endbz)
+CFile::Fgets	_freecplus.cpp	/^bool CFile::Fgets(char *buffer,const int readsize,bool bdelcrt)$/;"	f	class:CFile	signature:(char *buffer,const int readsize,bool bdelcrt)
+CFile::Fprintf	_freecplus.cpp	/^void CFile::Fprintf(const char *fmt,...)$/;"	f	class:CFile	signature:(const char *fmt,...)
+CFile::Fread	_freecplus.cpp	/^size_t CFile::Fread(void *ptr, size_t size)$/;"	f	class:CFile	signature:(void *ptr, size_t size)
+CFile::Fwrite	_freecplus.cpp	/^size_t CFile::Fwrite(const void *ptr, size_t size )$/;"	f	class:CFile	signature:(const void *ptr, size_t size )
+CFile::IsOpened	_freecplus.cpp	/^bool CFile::IsOpened()$/;"	f	class:CFile	signature:()
+CFile::Open	_freecplus.cpp	/^bool CFile::Open(const char *filename,const char *openmode,bool bEnBuffer)$/;"	f	class:CFile	signature:(const char *filename,const char *openmode,bool bEnBuffer)
+CFile::OpenForRename	_freecplus.cpp	/^bool CFile::OpenForRename(const char *filename,const char *openmode,bool bEnBuffer)$/;"	f	class:CFile	signature:(const char *filename,const char *openmode,bool bEnBuffer)
+CFile::~CFile	_freecplus.cpp	/^CFile::~CFile()   \/\/ 类的析构函数$/;"	f	class:CFile	signature:()
+CIniFile	_freecplus.cpp	/^CIniFile::CIniFile()$/;"	f	class:CIniFile	signature:()
+CIniFile::CIniFile	_freecplus.cpp	/^CIniFile::CIniFile()$/;"	f	class:CIniFile	signature:()
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,bool   *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,bool *value)
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,char *value,int ilen)$/;"	f	class:CIniFile	signature:(const char *fieldname,char *value,int ilen)
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,double *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,double *value)
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,int *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,int *value)
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,long *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,long *value)
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,unsigned int *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,unsigned int *value)
+CIniFile::GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,unsigned long *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,unsigned long *value)
+CIniFile::LoadFile	_freecplus.cpp	/^bool CIniFile::LoadFile(const char *filename)$/;"	f	class:CIniFile	signature:(const char *filename)
+CLogFile	_freecplus.cpp	/^CLogFile::CLogFile(const long MaxLogSize)$/;"	f	class:CLogFile	signature:(const long MaxLogSize)
+CLogFile::BackupLogFile	_freecplus.cpp	/^bool CLogFile::BackupLogFile()$/;"	f	class:CLogFile	signature:()
+CLogFile::CLogFile	_freecplus.cpp	/^CLogFile::CLogFile(const long MaxLogSize)$/;"	f	class:CLogFile	signature:(const long MaxLogSize)
+CLogFile::Close	_freecplus.cpp	/^void CLogFile::Close()$/;"	f	class:CLogFile	signature:()
+CLogFile::Open	_freecplus.cpp	/^bool CLogFile::Open(const char *filename,const char *openmode,bool bBackup,bool bEnBuffer)$/;"	f	class:CLogFile	signature:(const char *filename,const char *openmode,bool bBackup,bool bEnBuffer)
+CLogFile::Write	_freecplus.cpp	/^bool CLogFile::Write(const char *fmt,...)$/;"	f	class:CLogFile	signature:(const char *fmt,...)
+CLogFile::WriteEx	_freecplus.cpp	/^bool CLogFile::WriteEx(const char *fmt,...)$/;"	f	class:CLogFile	signature:(const char *fmt,...)
+CLogFile::~CLogFile	_freecplus.cpp	/^CLogFile::~CLogFile()$/;"	f	class:CLogFile	signature:()
+COPY	_freecplus.cpp	/^bool COPY(const char *srcfilename,const char *dstfilename)$/;"	f	signature:(const char *srcfilename,const char *dstfilename)
+COPY	_freecplus.h	/^bool COPY(const char *srcfilename,const char *dstfilename);$/;"	p	signature:(const char *srcfilename,const char *dstfilename)
+CTcpClient	_freecplus.cpp	/^CTcpClient::CTcpClient()$/;"	f	class:CTcpClient	signature:()
+CTcpClient::CTcpClient	_freecplus.cpp	/^CTcpClient::CTcpClient()$/;"	f	class:CTcpClient	signature:()
+CTcpClient::Close	_freecplus.cpp	/^void CTcpClient::Close()$/;"	f	class:CTcpClient	signature:()
+CTcpClient::ConnectToServer	_freecplus.cpp	/^bool CTcpClient::ConnectToServer(const char *ip,const int port)$/;"	f	class:CTcpClient	signature:(const char *ip,const int port)
+CTcpClient::Read	_freecplus.cpp	/^bool CTcpClient::Read(char *buffer,const int itimeout)$/;"	f	class:CTcpClient	signature:(char *buffer,const int itimeout)
+CTcpClient::Write	_freecplus.cpp	/^bool CTcpClient::Write(const char *buffer,const int ibuflen)$/;"	f	class:CTcpClient	signature:(const char *buffer,const int ibuflen)
+CTcpClient::~CTcpClient	_freecplus.cpp	/^CTcpClient::~CTcpClient()$/;"	f	class:CTcpClient	signature:()
+CTcpServer	_freecplus.cpp	/^CTcpServer::CTcpServer()$/;"	f	class:CTcpServer	signature:()
+CTcpServer::Accept	_freecplus.cpp	/^bool CTcpServer::Accept()$/;"	f	class:CTcpServer	signature:()
+CTcpServer::CTcpServer	_freecplus.cpp	/^CTcpServer::CTcpServer()$/;"	f	class:CTcpServer	signature:()
+CTcpServer::CloseClient	_freecplus.cpp	/^void CTcpServer::CloseClient()$/;"	f	class:CTcpServer	signature:()
+CTcpServer::CloseListen	_freecplus.cpp	/^void CTcpServer::CloseListen()$/;"	f	class:CTcpServer	signature:()
+CTcpServer::GetIP	_freecplus.cpp	/^char *CTcpServer::GetIP()$/;"	f	class:CTcpServer	signature:()
+CTcpServer::InitServer	_freecplus.cpp	/^bool CTcpServer::InitServer(const unsigned int port)$/;"	f	class:CTcpServer	signature:(const unsigned int port)
+CTcpServer::Read	_freecplus.cpp	/^bool CTcpServer::Read(char *buffer,const int itimeout)$/;"	f	class:CTcpServer	signature:(char *buffer,const int itimeout)
+CTcpServer::Write	_freecplus.cpp	/^bool CTcpServer::Write(const char *buffer,const int ibuflen)$/;"	f	class:CTcpServer	signature:(const char *buffer,const int ibuflen)
+CTcpServer::~CTcpServer	_freecplus.cpp	/^CTcpServer::~CTcpServer()$/;"	f	class:CTcpServer	signature:()
+CTimer	_freecplus.cpp	/^CTimer::CTimer()$/;"	f	class:CTimer	signature:()
+CTimer::CTimer	_freecplus.cpp	/^CTimer::CTimer()$/;"	f	class:CTimer	signature:()
+CTimer::Elapsed	_freecplus.cpp	/^double CTimer::Elapsed()$/;"	f	class:CTimer	signature:()
+CTimer::Start	_freecplus.cpp	/^void CTimer::Start()$/;"	f	class:CTimer	signature:()
+Cftp	_ftp.cpp	/^Cftp::Cftp()$/;"	f	class:Cftp	signature:()
+Cftp::Cftp	_ftp.cpp	/^Cftp::Cftp()$/;"	f	class:Cftp	signature:()
+Cftp::chdir	_ftp.cpp	/^bool Cftp::chdir(const char *remotedir)$/;"	f	class:Cftp	signature:(const char *remotedir)
+Cftp::dir	_ftp.cpp	/^bool Cftp::dir(const char *remotedir,const char *listfilename)$/;"	f	class:Cftp	signature:(const char *remotedir,const char *listfilename)
+Cftp::ftpdelete	_ftp.cpp	/^bool Cftp::ftpdelete(const char *remotefilename)$/;"	f	class:Cftp	signature:(const char *remotefilename)
+Cftp::ftprename	_ftp.cpp	/^bool Cftp::ftprename(const char *srcremotefilename,const char *dstremotefilename)$/;"	f	class:Cftp	signature:(const char *srcremotefilename,const char *dstremotefilename)
+Cftp::get	_ftp.cpp	/^bool Cftp::get(const char *remotefilename,const char *localfilename,const bool bCheckMTime)$/;"	f	class:Cftp	signature:(const char *remotefilename,const char *localfilename,const bool bCheckMTime)
+Cftp::initdata	_ftp.cpp	/^void Cftp::initdata()$/;"	f	class:Cftp	signature:()
+Cftp::login	_ftp.cpp	/^bool Cftp::login(const char *host,const char *username,const char *password,const int imode)$/;"	f	class:Cftp	signature:(const char *host,const char *username,const char *password,const int imode)
+Cftp::logout	_ftp.cpp	/^bool Cftp::logout()$/;"	f	class:Cftp	signature:()
+Cftp::mkdir	_ftp.cpp	/^bool Cftp::mkdir(const char *remotedir)$/;"	f	class:Cftp	signature:(const char *remotedir)
+Cftp::mtime	_ftp.cpp	/^bool Cftp::mtime(const char *remotefilename)$/;"	f	class:Cftp	signature:(const char *remotefilename)
+Cftp::nlist	_ftp.cpp	/^bool Cftp::nlist(const char *remotedir,const char *listfilename)$/;"	f	class:Cftp	signature:(const char *remotedir,const char *listfilename)
+Cftp::put	_ftp.cpp	/^bool Cftp::put(const char *localfilename,const char *remotefilename,const bool bCheckSize)$/;"	f	class:Cftp	signature:(const char *localfilename,const char *remotefilename,const bool bCheckSize)
+Cftp::response	_ftp.cpp	/^char *Cftp::response()$/;"	f	class:Cftp	signature:()
+Cftp::rmdir	_ftp.cpp	/^bool Cftp::rmdir(const char *remotedir)$/;"	f	class:Cftp	signature:(const char *remotedir)
+Cftp::site	_ftp.cpp	/^bool Cftp::site(const char *command)$/;"	f	class:Cftp	signature:(const char *command)
+Cftp::size	_ftp.cpp	/^bool Cftp::size(const char *remotefilename)$/;"	f	class:Cftp	signature:(const char *remotefilename)
+Cftp::~Cftp	_ftp.cpp	/^Cftp::~Cftp()$/;"	f	class:Cftp	signature:()
+Close	_freecplus.cpp	/^void CFile::Close() $/;"	f	class:CFile	signature:()
+Close	_freecplus.cpp	/^void CLogFile::Close()$/;"	f	class:CLogFile	signature:()
+Close	_freecplus.cpp	/^void CTcpClient::Close()$/;"	f	class:CTcpClient	signature:()
+CloseAndRemove	_freecplus.cpp	/^bool CFile::CloseAndRemove()$/;"	f	class:CFile	signature:()
+CloseAndRename	_freecplus.cpp	/^bool CFile::CloseAndRename()$/;"	f	class:CFile	signature:()
+CloseClient	_freecplus.cpp	/^void CTcpServer::CloseClient()$/;"	f	class:CTcpServer	signature:()
+CloseIOAndSignal	_freecplus.cpp	/^void CloseIOAndSignal()$/;"	f	signature:()
+CloseIOAndSignal	_freecplus.h	/^void CloseIOAndSignal();$/;"	p
+CloseListen	_freecplus.cpp	/^void CTcpServer::CloseListen()$/;"	f	class:CTcpServer	signature:()
+CmdCount	_freecplus.cpp	/^int CCmdStr::CmdCount()$/;"	f	class:CCmdStr	signature:()
+ConnectToServer	_freecplus.cpp	/^bool CTcpClient::ConnectToServer(const char *ip,const int port)$/;"	f	class:CTcpClient	signature:(const char *ip,const int port)
+DeleteLChar	_freecplus.cpp	/^void DeleteLChar(char *str,const char chr)$/;"	f	signature:(char *str,const char chr)
+DeleteLChar	_freecplus.h	/^void DeleteLChar(char *str,const char chr);$/;"	p	signature:(char *str,const char chr)
+DeleteLRChar	_freecplus.cpp	/^void DeleteLRChar(char *str,const char chr)$/;"	f	signature:(char *str,const char chr)
+DeleteLRChar	_freecplus.h	/^void DeleteLRChar(char *str,const char chr);$/;"	p	signature:(char *str,const char chr)
+DeleteRChar	_freecplus.cpp	/^void DeleteRChar(char *str,const char chr)$/;"	f	signature:(char *str,const char chr)
+DeleteRChar	_freecplus.h	/^void DeleteRChar(char *str,const char chr);$/;"	p	signature:(char *str,const char chr)
+Elapsed	_freecplus.cpp	/^double CTimer::Elapsed()$/;"	f	class:CTimer	signature:()
+FFGETS	_freecplus.cpp	/^bool CFile::FFGETS(char *buffer,const int readsize,const char *endbz)$/;"	f	class:CFile	signature:(char *buffer,const int readsize,const char *endbz)
+FGETS	_freecplus.cpp	/^bool FGETS(const FILE *fp,char *buffer,const int readsize,const char *endbz)$/;"	f	signature:(const FILE *fp,char *buffer,const int readsize,const char *endbz)
+FGETS	_freecplus.h	/^bool FGETS(const FILE *fp,char *buffer,const int readsize,const char *endbz=0);$/;"	p	signature:(const FILE *fp,char *buffer,const int readsize,const char *endbz=0)
+FOPEN	_freecplus.cpp	/^FILE *FOPEN(const char *filename,const char *mode)$/;"	f	signature:(const char *filename,const char *mode)
+FOPEN	_freecplus.h	/^FILE *FOPEN(const char *filename,const char *mode);$/;"	p	signature:(const char *filename,const char *mode)
+FTPLIB_ASCII	ftplib.h	45;"	d
+FTPLIB_BINARY	ftplib.h	48;"	d
+FTPLIB_BUFSIZ	ftplib.c	68;"	d	file:
+FTPLIB_CALLBACK	ftplib.h	56;"	d
+FTPLIB_CALLBACKARG	ftplib.h	58;"	d
+FTPLIB_CALLBACKBYTES	ftplib.h	59;"	d
+FTPLIB_CONNMODE	ftplib.h	55;"	d
+FTPLIB_CONTROL	ftplib.c	73;"	d	file:
+FTPLIB_DEFMODE	ftplib.c	78;"	d	file:
+FTPLIB_DIR	ftplib.h	39;"	d
+FTPLIB_DIR_VERBOSE	ftplib.h	40;"	d
+FTPLIB_FILE_READ	ftplib.h	41;"	d
+FTPLIB_FILE_WRITE	ftplib.h	42;"	d
+FTPLIB_IDLETIME	ftplib.h	57;"	d
+FTPLIB_IMAGE	ftplib.h	46;"	d
+FTPLIB_PASSIVE	ftplib.h	51;"	d
+FTPLIB_PORT	ftplib.h	52;"	d
+FTPLIB_READ	ftplib.c	74;"	d	file:
+FTPLIB_TEXT	ftplib.h	47;"	d
+FTPLIB_WRITE	ftplib.c	75;"	d	file:
+Fgets	_freecplus.cpp	/^bool CFile::Fgets(char *buffer,const int readsize,bool bdelcrt)$/;"	f	class:CFile	signature:(char *buffer,const int readsize,bool bdelcrt)
+FileMTime	_freecplus.cpp	/^bool FileMTime(const char *filename,char *mtime,const char *fmt)$/;"	f	signature:(const char *filename,char *mtime,const char *fmt)
+FileMTime	_freecplus.h	/^bool FileMTime(const char *filename,char *mtime,const char *fmt=0);$/;"	p	signature:(const char *filename,char *mtime,const char *fmt=0)
+FileSize	_freecplus.cpp	/^int FileSize(const char *filename)$/;"	f	signature:(const char *filename)
+FileSize	_freecplus.h	/^int FileSize(const char *filename);$/;"	p	signature:(const char *filename)
+Fprintf	_freecplus.cpp	/^void CFile::Fprintf(const char *fmt,...)$/;"	f	class:CFile	signature:(const char *fmt,...)
+Fread	_freecplus.cpp	/^size_t CFile::Fread(void *ptr, size_t size)$/;"	f	class:CFile	signature:(void *ptr, size_t size)
+FtpAcceptConnection	ftplib.c	/^static int FtpAcceptConnection(netbuf *nData, netbuf *nControl)$/;"	f	file:	signature:(netbuf *nData, netbuf *nControl)
+FtpAccess	ftplib.c	/^GLOBALDEF int FtpAccess(const char *path, int typ, int mode, netbuf *nControl,$/;"	f	signature:(const char *path, int typ, int mode, netbuf *nControl, netbuf **nData)
+FtpAccess	ftplib.h	/^GLOBALREF int FtpAccess(const char *path, int typ, int mode, netbuf *nControl,$/;"	p	signature:(const char *path, int typ, int mode, netbuf *nControl, netbuf **nData)
+FtpCDUp	ftplib.c	/^GLOBALDEF int FtpCDUp(netbuf *nControl)$/;"	f	signature:(netbuf *nControl)
+FtpCDUp	ftplib.h	/^GLOBALREF int FtpCDUp(netbuf *nControl);$/;"	p	signature:(netbuf *nControl)
+FtpCallback	ftplib.h	/^typedef int (*FtpCallback)(netbuf *nControl, fsz_t xfered, void *arg);$/;"	t
+FtpCallbackOptions	ftplib.h	/^typedef struct FtpCallbackOptions {$/;"	s
+FtpCallbackOptions	ftplib.h	/^} FtpCallbackOptions;$/;"	t	typeref:struct:FtpCallbackOptions
+FtpCallbackOptions::bytesXferred	ftplib.h	/^    unsigned int bytesXferred;	\/* callback if this number of bytes transferred *\/$/;"	m	struct:FtpCallbackOptions	access:public
+FtpCallbackOptions::cbArg	ftplib.h	/^    void *cbArg;		\/* argument to pass to function *\/$/;"	m	struct:FtpCallbackOptions	access:public
+FtpCallbackOptions::cbFunc	ftplib.h	/^    FtpCallback cbFunc;		\/* function to call *\/$/;"	m	struct:FtpCallbackOptions	access:public
+FtpCallbackOptions::idleTime	ftplib.h	/^    unsigned int idleTime;	\/* callback if this many milliseconds have elapsed *\/$/;"	m	struct:FtpCallbackOptions	access:public
+FtpChdir	ftplib.c	/^GLOBALDEF int FtpChdir(const char *path, netbuf *nControl)$/;"	f	signature:(const char *path, netbuf *nControl)
+FtpChdir	ftplib.h	/^GLOBALREF int FtpChdir(const char *path, netbuf *nControl);$/;"	p	signature:(const char *path, netbuf *nControl)
+FtpClearCallback	ftplib.c	/^GLOBALDEF int FtpClearCallback(netbuf *nControl)$/;"	f	signature:(netbuf *nControl)
+FtpClearCallback	ftplib.h	/^GLOBALREF int FtpClearCallback(netbuf *nControl);$/;"	p	signature:(netbuf *nControl)
+FtpClose	ftplib.c	/^GLOBALDEF int FtpClose(netbuf *nData)$/;"	f	signature:(netbuf *nData)
+FtpClose	ftplib.h	/^GLOBALREF int FtpClose(netbuf *nData);$/;"	p	signature:(netbuf *nData)
+FtpConnect	ftplib.c	/^GLOBALDEF int FtpConnect(const char *host, netbuf **nControl)$/;"	f	signature:(const char *host, netbuf **nControl)
+FtpConnect	ftplib.h	/^GLOBALREF int FtpConnect(const char *host, netbuf **nControl);$/;"	p	signature:(const char *host, netbuf **nControl)
+FtpDelete	ftplib.c	/^GLOBALDEF int FtpDelete(const char *fnm, netbuf *nControl)$/;"	f	signature:(const char *fnm, netbuf *nControl)
+FtpDelete	ftplib.h	/^GLOBALREF int FtpDelete(const char *fnm, netbuf *nControl);$/;"	p	signature:(const char *fnm, netbuf *nControl)
+FtpDir	ftplib.c	/^GLOBALDEF int FtpDir(const char *outputfile, const char *path, netbuf *nControl)$/;"	f	signature:(const char *outputfile, const char *path, netbuf *nControl)
+FtpDir	ftplib.h	/^GLOBALREF int FtpDir(const char *output, const char *path, netbuf *nControl);$/;"	p	signature:(const char *output, const char *path, netbuf *nControl)
+FtpGet	ftplib.c	/^GLOBALDEF int FtpGet(const char *outputfile, const char *path,$/;"	f	signature:(const char *outputfile, const char *path, char mode, netbuf *nControl)
+FtpGet	ftplib.h	/^GLOBALREF int FtpGet(const char *output, const char *path, char mode,$/;"	p	signature:(const char *output, const char *path, char mode, netbuf *nControl)
+FtpInit	ftplib.c	/^GLOBALDEF void FtpInit(void)$/;"	f	signature:(void)
+FtpInit	ftplib.h	/^GLOBALREF void FtpInit(void);$/;"	p	signature:(void)
+FtpLastResponse	ftplib.c	/^GLOBALDEF char *FtpLastResponse(netbuf *nControl)$/;"	f	signature:(netbuf *nControl)
+FtpLastResponse	ftplib.h	/^GLOBALREF char *FtpLastResponse(netbuf *nControl);$/;"	p	signature:(netbuf *nControl)
+FtpLogin	ftplib.c	/^GLOBALDEF int FtpLogin(const char *user, const char *pass, netbuf *nControl)$/;"	f	signature:(const char *user, const char *pass, netbuf *nControl)
+FtpLogin	ftplib.h	/^GLOBALREF int FtpLogin(const char *user, const char *pass, netbuf *nControl);$/;"	p	signature:(const char *user, const char *pass, netbuf *nControl)
+FtpMkdir	ftplib.c	/^GLOBALDEF int FtpMkdir(const char *path, netbuf *nControl)$/;"	f	signature:(const char *path, netbuf *nControl)
+FtpMkdir	ftplib.h	/^GLOBALREF int FtpMkdir(const char *path, netbuf *nControl);$/;"	p	signature:(const char *path, netbuf *nControl)
+FtpModDate	ftplib.c	/^GLOBALDEF int FtpModDate(const char *path, char *dt, int max, netbuf *nControl)$/;"	f	signature:(const char *path, char *dt, int max, netbuf *nControl)
+FtpModDate	ftplib.h	/^GLOBALREF int FtpModDate(const char *path, char *dt, int max, netbuf *nControl);$/;"	p	signature:(const char *path, char *dt, int max, netbuf *nControl)
+FtpNlst	ftplib.c	/^GLOBALDEF int FtpNlst(const char *outputfile, const char *path,$/;"	f	signature:(const char *outputfile, const char *path, netbuf *nControl)
+FtpNlst	ftplib.h	/^GLOBALREF int FtpNlst(const char *output, const char *path, netbuf *nControl);$/;"	p	signature:(const char *output, const char *path, netbuf *nControl)
+FtpOpenPort	ftplib.c	/^static int FtpOpenPort(netbuf *nControl, netbuf **nData, int mode, int dir)$/;"	f	file:	signature:(netbuf *nControl, netbuf **nData, int mode, int dir)
+FtpOptions	ftplib.c	/^GLOBALDEF int FtpOptions(int opt, long val, netbuf *nControl)$/;"	f	signature:(int opt, long val, netbuf *nControl)
+FtpOptions	ftplib.h	/^GLOBALREF int FtpOptions(int opt, long val, netbuf *nControl);$/;"	p	signature:(int opt, long val, netbuf *nControl)
+FtpPut	ftplib.c	/^GLOBALDEF int FtpPut(const char *inputfile, const char *path, char mode,$/;"	f	signature:(const char *inputfile, const char *path, char mode, netbuf *nControl)
+FtpPut	ftplib.h	/^GLOBALREF int FtpPut(const char *input, const char *path, char mode,$/;"	p	signature:(const char *input, const char *path, char mode, netbuf *nControl)
+FtpPwd	ftplib.c	/^GLOBALDEF int FtpPwd(char *path, int max, netbuf *nControl)$/;"	f	signature:(char *path, int max, netbuf *nControl)
+FtpPwd	ftplib.h	/^GLOBALREF int FtpPwd(char *path, int max, netbuf *nControl);$/;"	p	signature:(char *path, int max, netbuf *nControl)
+FtpQuit	ftplib.c	/^GLOBALDEF void FtpQuit(netbuf *nControl)$/;"	f	signature:(netbuf *nControl)
+FtpQuit	ftplib.h	/^GLOBALREF void FtpQuit(netbuf *nControl);$/;"	p	signature:(netbuf *nControl)
+FtpRead	ftplib.c	/^GLOBALDEF int FtpRead(void *buf, int max, netbuf *nData)$/;"	f	signature:(void *buf, int max, netbuf *nData)
+FtpRead	ftplib.h	/^GLOBALREF int FtpRead(void *buf, int max, netbuf *nData);$/;"	p	signature:(void *buf, int max, netbuf *nData)
+FtpRename	ftplib.c	/^GLOBALDEF int FtpRename(const char *src, const char *dst, netbuf *nControl)$/;"	f	signature:(const char *src, const char *dst, netbuf *nControl)
+FtpRename	ftplib.h	/^GLOBALREF int FtpRename(const char *src, const char *dst, netbuf *nControl);$/;"	p	signature:(const char *src, const char *dst, netbuf *nControl)
+FtpRmdir	ftplib.c	/^GLOBALDEF int FtpRmdir(const char *path, netbuf *nControl)$/;"	f	signature:(const char *path, netbuf *nControl)
+FtpRmdir	ftplib.h	/^GLOBALREF int FtpRmdir(const char *path, netbuf *nControl);$/;"	p	signature:(const char *path, netbuf *nControl)
+FtpSendCmd	ftplib.c	/^static int FtpSendCmd(const char *cmd, char expresp, netbuf *nControl)$/;"	f	file:	signature:(const char *cmd, char expresp, netbuf *nControl)
+FtpSetCallback	ftplib.c	/^GLOBALDEF int FtpSetCallback(const FtpCallbackOptions *opt, netbuf *nControl)$/;"	f	signature:(const FtpCallbackOptions *opt, netbuf *nControl)
+FtpSetCallback	ftplib.h	/^GLOBALREF int FtpSetCallback(const FtpCallbackOptions *opt, netbuf *nControl);$/;"	p	signature:(const FtpCallbackOptions *opt, netbuf *nControl)
+FtpSite	ftplib.c	/^GLOBALDEF int FtpSite(const char *cmd, netbuf *nControl)$/;"	f	signature:(const char *cmd, netbuf *nControl)
+FtpSite	ftplib.h	/^GLOBALREF int FtpSite(const char *cmd, netbuf *nControl);$/;"	p	signature:(const char *cmd, netbuf *nControl)
+FtpSize	ftplib.c	/^GLOBALDEF int FtpSize(const char *path, unsigned int *size, char mode, netbuf *nControl)$/;"	f	signature:(const char *path, unsigned int *size, char mode, netbuf *nControl)
+FtpSize	ftplib.h	/^GLOBALREF int FtpSize(const char *path, unsigned int *size, char mode, netbuf *nControl);$/;"	p	signature:(const char *path, unsigned int *size, char mode, netbuf *nControl)
+FtpSizeLong	ftplib.c	/^GLOBALDEF int FtpSizeLong(const char *path, fsz_t *size, char mode, netbuf *nControl)$/;"	f	signature:(const char *path, fsz_t *size, char mode, netbuf *nControl)
+FtpSizeLong	ftplib.h	/^GLOBALREF int FtpSizeLong(const char *path, fsz_t *size, char mode, netbuf *nControl);$/;"	p	signature:(const char *path, fsz_t *size, char mode, netbuf *nControl)
+FtpSysType	ftplib.c	/^GLOBALDEF int FtpSysType(char *buf, int max, netbuf *nControl)$/;"	f	signature:(char *buf, int max, netbuf *nControl)
+FtpSysType	ftplib.h	/^GLOBALREF int FtpSysType(char *buf, int max, netbuf *nControl);$/;"	p	signature:(char *buf, int max, netbuf *nControl)
+FtpWrite	ftplib.c	/^GLOBALDEF int FtpWrite(const void *buf, int len, netbuf *nData)$/;"	f	signature:(const void *buf, int len, netbuf *nData)
+FtpWrite	ftplib.h	/^GLOBALREF int FtpWrite(const void *buf, int len, netbuf *nData);$/;"	p	signature:(const void *buf, int len, netbuf *nData)
+FtpXfer	ftplib.c	/^static int FtpXfer(const char *localfile, const char *path,$/;"	f	file:	signature:(const char *localfile, const char *path, netbuf *nControl, int typ, int mode)
+Fwrite	_freecplus.cpp	/^size_t CFile::Fwrite(const void *ptr, size_t size )$/;"	f	class:CFile	signature:(const void *ptr, size_t size )
+GLOBALDEF	ftplib.h	24;"	d
+GLOBALDEF	ftplib.h	28;"	d
+GLOBALREF	ftplib.h	25;"	d
+GLOBALREF	ftplib.h	29;"	d
+GLOBALREF	ftplib.h	31;"	d
+GetIP	_freecplus.cpp	/^char *CTcpServer::GetIP()$/;"	f	class:CTcpServer	signature:()
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,bool *value)$/;"	f	class:CCmdStr	signature:(const int inum,bool *value)
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,char *value,const int ilen)$/;"	f	class:CCmdStr	signature:(const int inum,char *value,const int ilen)
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,double *value)$/;"	f	class:CCmdStr	signature:(const int inum,double *value)
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,int *value)$/;"	f	class:CCmdStr	signature:(const int inum,int *value)
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,long *value)$/;"	f	class:CCmdStr	signature:(const int inum,long *value)
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,unsigned int *value)$/;"	f	class:CCmdStr	signature:(const int inum,unsigned int *value)
+GetValue	_freecplus.cpp	/^bool CCmdStr::GetValue(const int inum,unsigned long *value)$/;"	f	class:CCmdStr	signature:(const int inum,unsigned long *value)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,bool   *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,bool *value)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,char *value,int ilen)$/;"	f	class:CIniFile	signature:(const char *fieldname,char *value,int ilen)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,double *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,double *value)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,int *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,int *value)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,long *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,long *value)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,unsigned int *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,unsigned int *value)
+GetValue	_freecplus.cpp	/^bool CIniFile::GetValue(const char *fieldname,unsigned long *value)$/;"	f	class:CIniFile	signature:(const char *fieldname,unsigned long *value)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,bool *value)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,bool *value)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,char *value,const int ilen)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,char *value,const int ilen)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,double *value)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,double *value)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,int *value)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,int *value)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,long *value)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,long *value)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,unsigned int *value)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,unsigned int *value)
+GetXMLBuffer	_freecplus.cpp	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,unsigned long *value)$/;"	f	signature:(const char *xmlbuffer,const char *fieldname,unsigned long *value)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,bool *value);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,bool *value)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,char *value,const int ilen=0);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,char *value,const int ilen=0)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,double *value);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,double *value)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,int  *value);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,int *value)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,long *value);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,long *value)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,unsigned int *value);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,unsigned int *value)
+GetXMLBuffer	_freecplus.h	/^bool GetXMLBuffer(const char *xmlbuffer,const char *fieldname,unsigned long *value);$/;"	p	signature:(const char *xmlbuffer,const char *fieldname,unsigned long *value)
+InitServer	_freecplus.cpp	/^bool CTcpServer::InitServer(const unsigned int port)$/;"	f	class:CTcpServer	signature:(const unsigned int port)
+IsOpened	_freecplus.cpp	/^bool CFile::IsOpened()$/;"	f	class:CFile	signature:()
+LOBMAXBUFLEN	db/oracle/_ooci.cpp	782;"	d	file:
+LOGINENV	db/mysql/_mysql.h	/^struct LOGINENV$/;"	s
+LOGINENV	db/oracle/_ooci.h	/^struct LOGINENV      \/\/ OCI登录环境。$/;"	s
+LOGINENV::dbname	db/mysql/_mysql.h	/^  char dbname[51];   \/\/ 登录后，缺省打开的数据库。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::envhp	db/oracle/_ooci.h	/^  OCIEnv *envhp;     \/\/ 环境变量的句柄。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::ip	db/mysql/_mysql.h	/^  char ip[32];       \/\/ MySQL数据库的ip地址。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::pass	db/mysql/_mysql.h	/^  char pass[32];     \/\/ 登录MySQL数据库的密码。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::pass	db/oracle/_ooci.h	/^  char pass[32];     \/\/ 数据库的密码。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::port	db/mysql/_mysql.h	/^  int  port;         \/\/ MySQL数据库的通信端口。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::tnsname	db/oracle/_ooci.h	/^  char tnsname[51];  \/\/ 数据库的tnsname，在ORACLE_HOME\/network\/admin\/tnsnames.ora中配置。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::user	db/mysql/_mysql.h	/^  char user[32];     \/\/ 登录MySQL数据库的用户名。$/;"	m	struct:LOGINENV	access:public
+LOGINENV::user	db/oracle/_ooci.h	/^  char user[32];     \/\/ 数据库的用户名。$/;"	m	struct:LOGINENV	access:public
+LoadFile	_freecplus.cpp	/^bool CIniFile::LoadFile(const char *filename)$/;"	f	class:CIniFile	signature:(const char *filename)
+LocalTime	_freecplus.cpp	/^void LocalTime(char *stime,const char *fmt,const int timetvl)$/;"	f	signature:(char *stime,const char *fmt,const int timetvl)
+LocalTime	_freecplus.h	/^void LocalTime(char *stime,const char *fmt=0,const int timetvl=0);$/;"	p	signature:(char *stime,const char *fmt=0,const int timetvl=0)
+MAXFIELDLENGTH	db/postgresql/_postgresql.h	97;"	d
+MAXPARAMS	db/mysql/_mysql.h	111;"	d
+MAXPARAMS	db/postgresql/_postgresql.h	94;"	d
+MKDIR	_freecplus.cpp	/^bool MKDIR(const char *filename,bool bisfilename)$/;"	f	signature:(const char *filename,bool bisfilename)
+MKDIR	_freecplus.h	/^bool MKDIR(const char *pathorfilename,bool bisfilename=true);$/;"	p	signature:(const char *pathorfilename,bool bisfilename=true)
+MY__DeleteLChar	db/mysql/_mysql.cpp	/^void MY__DeleteLChar(char *str,const char chr)$/;"	f	signature:(char *str,const char chr)
+MY__ToUpper	db/mysql/_mysql.cpp	/^void MY__ToUpper(char *str)$/;"	f	signature:(char *str)
+MY__UpdateStr	db/mysql/_mysql.cpp	/^void MY__UpdateStr(char *str,const char *str1,const char *str2,bool bloop)$/;"	f	signature:(char *str,const char *str1,const char *str2,bool bloop)
+MatchFileName	_freecplus.cpp	/^bool MatchFileName(const string in_FileName,const string in_MatchStr)$/;"	f	signature:(const string in_FileName,const string in_MatchStr)
+MatchFileName	_freecplus.h	/^bool MatchFileName(const string in_FileName,const string in_MatchStr);$/;"	p	signature:(const string in_FileName,const string in_MatchStr)
+MatchStr	_freecplus.cpp	/^bool MatchStr(const string str,const string rules)$/;"	f	signature:(const string str,const string rules)
+MatchStr	_freecplus.h	/^bool MatchStr(const string str,const string rules);$/;"	p	signature:(const string str,const string rules)
+NetBuf	ftplib.c	/^struct NetBuf {$/;"	s	file:
+NetBuf::buf	ftplib.c	/^    char *buf;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::cavail	ftplib.c	/^    int cavail,cleft;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::cbbytes	ftplib.c	/^    unsigned long int cbbytes;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::cget	ftplib.c	/^    char *cput,*cget;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::cleft	ftplib.c	/^    int cavail,cleft;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::cmode	ftplib.c	/^    int cmode;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::cput	ftplib.c	/^    char *cput,*cget;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::ctrl	ftplib.c	/^    netbuf *ctrl;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::data	ftplib.c	/^    netbuf *data;    $/;"	m	struct:NetBuf	file:	access:public
+NetBuf::dir	ftplib.c	/^    int dir;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::handle	ftplib.c	/^    int handle;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::idlearg	ftplib.c	/^    void *idlearg;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::idlecb	ftplib.c	/^    FtpCallback idlecb;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::idletime	ftplib.c	/^    struct timeval idletime;$/;"	m	struct:NetBuf	typeref:struct:NetBuf::timeval	file:	access:public
+NetBuf::response	ftplib.c	/^    char response[RESPONSE_BUFSIZ];$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::xfered	ftplib.c	/^    unsigned long int xfered;$/;"	m	struct:NetBuf	file:	access:public
+NetBuf::xfered1	ftplib.c	/^    unsigned long int xfered1;$/;"	m	struct:NetBuf	file:	access:public
+OCI_CXT	db/oracle/_ooci.h	/^struct OCI_CXT       \/\/ OCI上下文句柄。$/;"	s
+OCI_CXT::envhp	db/oracle/_ooci.h	/^  OCIEnv     *envhp; \/\/ 环境变量的句柄。$/;"	m	struct:OCI_CXT	access:public
+OCI_CXT::errhp	db/oracle/_ooci.h	/^  OCIError   *errhp;$/;"	m	struct:OCI_CXT	access:public
+OCI_CXT::svchp	db/oracle/_ooci.h	/^  OCISvcCtx  *svchp;$/;"	m	struct:OCI_CXT	access:public
+OCI_HANDLE	db/oracle/_ooci.h	/^struct OCI_HANDLE    \/\/ OCI的SQL句柄。$/;"	s
+OCI_HANDLE::bindhp	db/oracle/_ooci.h	/^  OCIBind    *bindhp;$/;"	m	struct:OCI_HANDLE	access:public
+OCI_HANDLE::defhp	db/oracle/_ooci.h	/^  OCIDefine  *defhp;$/;"	m	struct:OCI_HANDLE	access:public
+OCI_HANDLE::envhp	db/oracle/_ooci.h	/^  OCIEnv     *envhp; \/\/ 环境变量的句柄。$/;"	m	struct:OCI_HANDLE	access:public
+OCI_HANDLE::errhp	db/oracle/_ooci.h	/^  OCIError   *errhp; \/\/ 错误句柄引用context句柄。$/;"	m	struct:OCI_HANDLE	access:public
+OCI_HANDLE::smthp	db/oracle/_ooci.h	/^  OCIStmt    *smthp;$/;"	m	struct:OCI_HANDLE	access:public
+OCI_HANDLE::svchp	db/oracle/_ooci.h	/^  OCISvcCtx  *svchp; \/\/ 服务器上下文的句柄引用context句柄。$/;"	m	struct:OCI_HANDLE	access:public
+OR__DeleteLChar	db/oracle/_ooci.cpp	/^void OR__DeleteLChar(char *str,const char chr)$/;"	f	signature:(char *str,const char chr)
+OR__ToUpper	db/oracle/_ooci.cpp	/^void OR__ToUpper(char *str)$/;"	f	signature:(char *str)
+Open	_freecplus.cpp	/^bool CFile::Open(const char *filename,const char *openmode,bool bEnBuffer)$/;"	f	class:CFile	signature:(const char *filename,const char *openmode,bool bEnBuffer)
+Open	_freecplus.cpp	/^bool CLogFile::Open(const char *filename,const char *openmode,bool bBackup,bool bEnBuffer)$/;"	f	class:CLogFile	signature:(const char *filename,const char *openmode,bool bBackup,bool bEnBuffer)
+OpenDir	_freecplus.cpp	/^bool CDir::OpenDir(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild,bool bSort)$/;"	f	class:CDir	signature:(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild,bool bSort)
+OpenForRename	_freecplus.cpp	/^bool CFile::OpenForRename(const char *filename,const char *openmode,bool bEnBuffer)$/;"	f	class:CFile	signature:(const char *filename,const char *openmode,bool bEnBuffer)
+PG__DeleteLChar	db/postgresql/_postgresql.cpp	/^void PG__DeleteLChar(char *str,const char chr)$/;"	f	signature:(char *str,const char chr)
+PG__ToUpper	db/postgresql/_postgresql.cpp	/^void PG__ToUpper(char *str)$/;"	f	signature:(char *str)
+PG__UpdateStr	db/postgresql/_postgresql.cpp	/^void PG__UpdateStr(char *str,const char *str1,const char *str2,bool bloop)$/;"	f	signature:(char *str,const char *str1,const char *str2,bool bloop)
+PRIu64	ftplib.c	56;"	d	file:
+PRIu64	ftplib.c	58;"	d	file:
+PickNumber	_freecplus.cpp	/^void PickNumber(const char *src,char *dest,const bool bsigned,const bool bdot)$/;"	f	signature:(const char *src,char *dest,const bool bsigned,const bool bdot)
+PickNumber	_freecplus.h	/^void PickNumber(const char *src,char *dest,const bool bsigned,const bool bdot);$/;"	p	signature:(const char *src,char *dest,const bool bsigned,const bool bdot)
+REMOVE	_freecplus.cpp	/^bool REMOVE(const char *filename,const int times)$/;"	f	signature:(const char *filename,const int times)
+REMOVE	_freecplus.h	/^bool REMOVE(const char *filename,const int times=1);$/;"	p	signature:(const char *filename,const int times=1)
+RENAME	_freecplus.cpp	/^bool RENAME(const char *srcfilename,const char *dstfilename,const int times)$/;"	f	signature:(const char *srcfilename,const char *dstfilename,const int times)
+RENAME	_freecplus.h	/^bool RENAME(const char *srcfilename,const char *dstfilename,const int times=1);$/;"	p	signature:(const char *srcfilename,const char *dstfilename,const int times=1)
+RESPONSE_BUFSIZ	ftplib.c	69;"	d	file:
+Read	_freecplus.cpp	/^bool CTcpClient::Read(char *buffer,const int itimeout)$/;"	f	class:CTcpClient	signature:(char *buffer,const int itimeout)
+Read	_freecplus.cpp	/^bool CTcpServer::Read(char *buffer,const int itimeout)$/;"	f	class:CTcpServer	signature:(char *buffer,const int itimeout)
+ReadDir	_freecplus.cpp	/^bool CDir::ReadDir()$/;"	f	class:CDir	signature:()
+Readn	_freecplus.cpp	/^bool Readn(const int sockfd,char *buffer,const size_t n)$/;"	f	signature:(const int sockfd,char *buffer,const size_t n)
+Readn	_freecplus.h	/^bool Readn(const int sockfd,char *buffer,const size_t n);$/;"	p	signature:(const int sockfd,char *buffer,const size_t n)
+RecvFile	_freecplus.cpp	/^bool RecvFile(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile)$/;"	f	signature:(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile)
+RecvFile	_freecplus.h	/^bool RecvFile(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile=0);$/;"	p	signature:(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile=0)
+SETSOCKOPT_OPTVAL_TYPE	ftplib.c	63;"	d	file:
+SETSOCKOPT_OPTVAL_TYPE	ftplib.c	65;"	d	file:
+SNPRINTF	_freecplus.cpp	/^int SNPRINTF(char *dest,const size_t destlen,size_t n,const char *fmt,...)$/;"	f	signature:(char *dest,const size_t destlen,size_t n,const char *fmt,...)
+SNPRINTF	_freecplus.h	/^int SNPRINTF(char *dest,const size_t destlen,size_t n,const char *fmt,...);$/;"	p	signature:(char *dest,const size_t destlen,size_t n,const char *fmt,...)
+SPRINTF	_freecplus.cpp	/^int SPRINTF(char *dest,const size_t destlen,const char *fmt,...)$/;"	f	signature:(char *dest,const size_t destlen,const char *fmt,...)
+SPRINTF	_freecplus.h	/^int SPRINTF(char *dest,const size_t destlen,const char *fmt,...);$/;"	p	signature:(char *dest,const size_t destlen,const char *fmt,...)
+STRCAT	_freecplus.cpp	/^char *STRCAT(char* dest,const size_t destlen,const char* src)$/;"	f	signature:(char* dest,const size_t destlen,const char* src)
+STRCAT	_freecplus.h	/^char *STRCAT(char* dest,const size_t destlen,const char* src);$/;"	p	signature:(char* dest,const size_t destlen,const char* src)
+STRCPY	_freecplus.cpp	/^char *STRCPY(char* dest,const size_t destlen,const char* src)$/;"	f	signature:(char* dest,const size_t destlen,const char* src)
+STRCPY	_freecplus.h	/^char *STRCPY(char* dest,const size_t destlen,const char* src);$/;"	p	signature:(char* dest,const size_t destlen,const char* src)
+STRNCAT	_freecplus.cpp	/^char *STRNCAT(char* dest,const size_t destlen,const char* src,size_t n)$/;"	f	signature:(char* dest,const size_t destlen,const char* src,size_t n)
+STRNCAT	_freecplus.h	/^char *STRNCAT(char* dest,const size_t destlen,const char* src,size_t n);$/;"	p	signature:(char* dest,const size_t destlen,const char* src,size_t n)
+STRNCPY	_freecplus.cpp	/^char *STRNCPY(char* dest,const size_t destlen,const char* src,size_t n)$/;"	f	signature:(char* dest,const size_t destlen,const char* src,size_t n)
+STRNCPY	_freecplus.h	/^char *STRNCPY(char* dest,const size_t destlen,const char* src,size_t n);$/;"	p	signature:(char* dest,const size_t destlen,const char* src,size_t n)
+SendFile	_freecplus.cpp	/^bool SendFile(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile)$/;"	f	signature:(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile)
+SendFile	_freecplus.h	/^bool SendFile(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile=0);$/;"	p	signature:(int sockfd,struct st_fileinfo *stfileinfo,CLogFile *logfile=0)
+SetDateFMT	_freecplus.cpp	/^void CDir::SetDateFMT(const char *in_DateFMT)$/;"	f	class:CDir	signature:(const char *in_DateFMT)
+SplitToCmd	_freecplus.cpp	/^void CCmdStr::SplitToCmd(const string buffer,const char *sepstr,const bool bdelspace)$/;"	f	class:CCmdStr	signature:(const string buffer,const char *sepstr,const bool bdelspace)
+Start	_freecplus.cpp	/^void CTimer::Start()$/;"	f	class:CTimer	signature:()
+TMP_BUFSIZ	ftplib.c	70;"	d	file:
+TcpRead	_freecplus.cpp	/^bool TcpRead(const int sockfd,char *buffer,int *ibuflen,const int itimeout)$/;"	f	signature:(const int sockfd,char *buffer,int *ibuflen,const int itimeout)
+TcpRead	_freecplus.h	/^bool TcpRead(const int sockfd,char *buffer,int *ibuflen,const int itimeout=0);$/;"	p	signature:(const int sockfd,char *buffer,int *ibuflen,const int itimeout=0)
+TcpWrite	_freecplus.cpp	/^bool TcpWrite(const int sockfd,const char *buffer,const int ibuflen)$/;"	f	signature:(const int sockfd,const char *buffer,const int ibuflen)
+TcpWrite	_freecplus.h	/^bool TcpWrite(const int sockfd,const char *buffer,const int ibuflen=0);$/;"	p	signature:(const int sockfd,const char *buffer,const int ibuflen=0)
+ToLower	_freecplus.cpp	/^void ToLower(char *str)$/;"	f	signature:(char *str)
+ToLower	_freecplus.cpp	/^void ToLower(string &str)$/;"	f	signature:(string &str)
+ToLower	_freecplus.h	/^void ToLower(char *str);$/;"	p	signature:(char *str)
+ToLower	_freecplus.h	/^void ToLower(string &str);$/;"	p	signature:(string &str)
+ToUpper	_freecplus.cpp	/^void ToUpper(char *str)$/;"	f	signature:(char *str)
+ToUpper	_freecplus.cpp	/^void ToUpper(string &str)$/;"	f	signature:(string &str)
+ToUpper	_freecplus.h	/^void ToUpper(char *str);$/;"	p	signature:(char *str)
+ToUpper	_freecplus.h	/^void ToUpper(string &str);$/;"	p	signature:(string &str)
+UTime	_freecplus.cpp	/^bool UTime(const char *filename,const char *mtime)$/;"	f	signature:(const char *filename,const char *mtime)
+UTime	_freecplus.h	/^bool UTime(const char *filename,const char *mtime);$/;"	p	signature:(const char *filename,const char *mtime)
+UpdateStr	_freecplus.cpp	/^void UpdateStr(char *str,const char *str1,const char *str2,bool bloop)$/;"	f	signature:(char *str,const char *str1,const char *str2,bool bloop)
+UpdateStr	_freecplus.h	/^void UpdateStr(char *str,const char *str1,const char *str2,const bool bloop=true);$/;"	p	signature:(char *str,const char *str1,const char *str2,const bool bloop=true)
+Words	_freecplus.cpp	/^int Words(const char *str)$/;"	f	signature:(const char *str)
+Words	_freecplus.h	/^int Words(const char *str);$/;"	p	signature:(const char *str)
+Write	_freecplus.cpp	/^bool CLogFile::Write(const char *fmt,...)$/;"	f	class:CLogFile	signature:(const char *fmt,...)
+Write	_freecplus.cpp	/^bool CTcpClient::Write(const char *buffer,const int ibuflen)$/;"	f	class:CTcpClient	signature:(const char *buffer,const int ibuflen)
+Write	_freecplus.cpp	/^bool CTcpServer::Write(const char *buffer,const int ibuflen)$/;"	f	class:CTcpServer	signature:(const char *buffer,const int ibuflen)
+WriteEx	_freecplus.cpp	/^bool CLogFile::WriteEx(const char *fmt,...)$/;"	f	class:CLogFile	signature:(const char *fmt,...)
+Writen	_freecplus.cpp	/^bool Writen(const int sockfd,const char *buffer,const size_t n)$/;"	f	signature:(const int sockfd,const char *buffer,const size_t n)
+Writen	_freecplus.h	/^bool Writen(const int sockfd,const char *buffer,const size_t n);$/;"	p	signature:(const int sockfd,const char *buffer,const size_t n)
+_OpenDir	_freecplus.cpp	/^bool CDir::_OpenDir(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild)$/;"	f	class:CDir	signature:(const char *in_DirName,const char *in_MatchStr,const unsigned int in_MaxCount,const bool bAndChild)
+_POSTGRESQL_H	db/postgresql/_postgresql.h	17;"	d
+_REENTRANT	ftplib.c	48;"	d	file:
+__FREECPLUS_H	_freecplus.h	17;"	d
+__FTPLIB_H	ftplib.h	21;"	d
+__FTP_H	_ftp.h	17;"	d
+__MYSQL_H	db/mysql/_mysql.h	17;"	d
+__OOCI_H	db/oracle/_ooci.h	17;"	d
+_cmpublic_H	_cmpublic.h	17;"	d
+age	demo/demo20.cpp	/^  int  age;         \/\/ 年龄$/;"	m	struct:st_player	file:	access:public
+age	demo/demo22.cpp	/^  int  age;         \/\/ 年龄$/;"	m	struct:st_player	file:	access:public
+alloclob	db/oracle/_ooci.cpp	/^int sqlstatement::alloclob()$/;"	f	class:sqlstatement	signature:()
+begin	db/postgresql/_postgresql.cpp	/^int connection::begin()$/;"	f	class:connection	signature:()
+bindblob	db/oracle/_ooci.cpp	/^int sqlstatement::bindblob()$/;"	f	class:sqlstatement	signature:()
+bindclob	db/oracle/_ooci.cpp	/^int sqlstatement::bindclob()$/;"	f	class:sqlstatement	signature:()
+bindhp	db/oracle/_ooci.h	/^  OCIBind    *bindhp;$/;"	m	struct:OCI_HANDLE	access:public
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+btime	db/mysql/inserttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ssi'。$/;"	m	struct:st_girls	file:	access:public
+btime	db/mysql/selecttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ss'。$/;"	m	struct:st_girls	file:	access:public
+btime	db/oracle/inserttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ssi'。$/;"	m	struct:st_girls	file:	access:public
+btime	db/oracle/selecttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ss'。$/;"	m	struct:st_girls	file:	access:public
+btime	db/postgresql/inserttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ssi'。$/;"	m	struct:st_girls	file:	access:public
+btime	db/postgresql/selecttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ss'。$/;"	m	struct:st_girls	file:	access:public
+buf	ftplib.c	/^    char *buf;$/;"	m	struct:NetBuf	file:	access:public
+bytesXferred	ftplib.h	/^    unsigned int bytesXferred;	\/* callback if this number of bytes transferred *\/$/;"	m	struct:FtpCallbackOptions	access:public
+cavail	ftplib.c	/^    int cavail,cleft;$/;"	m	struct:NetBuf	file:	access:public
+cbArg	ftplib.h	/^    void *cbArg;		\/* argument to pass to function *\/$/;"	m	struct:FtpCallbackOptions	access:public
+cbFunc	ftplib.h	/^    FtpCallback cbFunc;		\/* function to call *\/$/;"	m	struct:FtpCallbackOptions	access:public
+cbbytes	ftplib.c	/^    unsigned long int cbbytes;$/;"	m	struct:NetBuf	file:	access:public
+cget	ftplib.c	/^    char *cput,*cget;$/;"	m	struct:NetBuf	file:	access:public
+character	db/mysql/_mysql.cpp	/^void connection::character(char *charset)$/;"	f	class:connection	signature:(char *charset)
+character	db/oracle/_ooci.cpp	/^void connection::character(char *charset)$/;"	f	class:connection	signature:(char *charset)
+character	db/postgresql/_postgresql.cpp	/^void connection::character(char *charset)$/;"	f	class:connection	signature:(char *charset)
+chdir	_ftp.cpp	/^bool Cftp::chdir(const char *remotedir)$/;"	f	class:Cftp	signature:(const char *remotedir)
+cleft	ftplib.c	/^    int cavail,cleft;$/;"	m	struct:NetBuf	file:	access:public
+club	demo/demo20.cpp	/^  char club[51];    \/\/ 效力的俱乐部$/;"	m	struct:st_player	file:	access:public
+club	demo/demo22.cpp	/^  char club[51];    \/\/ 效力的俱乐部$/;"	m	struct:st_player	file:	access:public
+cmode	ftplib.c	/^    int cmode;$/;"	m	struct:NetBuf	file:	access:public
+commit	db/mysql/_mysql.cpp	/^int connection::commit()$/;"	f	class:connection	signature:()
+commit	db/oracle/_ooci.cpp	/^int connection::commit()$/;"	f	class:connection	signature:()
+commit	db/postgresql/_postgresql.cpp	/^int connection::commit()$/;"	f	class:connection	signature:()
+connect	db/mysql/_mysql.cpp	/^int sqlstatement::connect(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+connect	db/oracle/_ooci.cpp	/^int sqlstatement::connect(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+connect	db/postgresql/_postgresql.cpp	/^int sqlstatement::connect(connection *in_conn)$/;"	f	class:sqlstatement	signature:(connection *in_conn)
+connection	db/mysql/_mysql.cpp	/^connection::connection()$/;"	f	class:connection	signature:()
+connection	db/oracle/_ooci.cpp	/^connection::connection()$/;"	f	class:connection	signature:()
+connection	db/postgresql/_postgresql.cpp	/^connection::connection()$/;"	f	class:connection	signature:()
+connection::begin	db/postgresql/_postgresql.cpp	/^int connection::begin()$/;"	f	class:connection	signature:()
+connection::character	db/mysql/_mysql.cpp	/^void connection::character(char *charset)$/;"	f	class:connection	signature:(char *charset)
+connection::character	db/oracle/_ooci.cpp	/^void connection::character(char *charset)$/;"	f	class:connection	signature:(char *charset)
+connection::character	db/postgresql/_postgresql.cpp	/^void connection::character(char *charset)$/;"	f	class:connection	signature:(char *charset)
+connection::commit	db/mysql/_mysql.cpp	/^int connection::commit()$/;"	f	class:connection	signature:()
+connection::commit	db/oracle/_ooci.cpp	/^int connection::commit()$/;"	f	class:connection	signature:()
+connection::commit	db/postgresql/_postgresql.cpp	/^int connection::commit()$/;"	f	class:connection	signature:()
+connection::connection	db/mysql/_mysql.cpp	/^connection::connection()$/;"	f	class:connection	signature:()
+connection::connection	db/oracle/_ooci.cpp	/^connection::connection()$/;"	f	class:connection	signature:()
+connection::connection	db/postgresql/_postgresql.cpp	/^connection::connection()$/;"	f	class:connection	signature:()
+connection::connecttodb	db/mysql/_mysql.cpp	/^int connection::connecttodb(char *connstr,char *charset,unsigned int autocommitopt)$/;"	f	class:connection	signature:(char *connstr,char *charset,unsigned int autocommitopt)
+connection::connecttodb	db/oracle/_ooci.cpp	/^int connection::connecttodb(char *connstr,char *charset,int autocommitopt)$/;"	f	class:connection	signature:(char *connstr,char *charset,int autocommitopt)
+connection::connecttodb	db/postgresql/_postgresql.cpp	/^int connection::connecttodb(char *connstr,char *charset,unsigned int autocommitopt)$/;"	f	class:connection	signature:(char *connstr,char *charset,unsigned int autocommitopt)
+connection::disconnect	db/mysql/_mysql.cpp	/^int connection::disconnect()$/;"	f	class:connection	signature:()
+connection::disconnect	db/oracle/_ooci.cpp	/^int connection::disconnect()$/;"	f	class:connection	signature:()
+connection::disconnect	db/postgresql/_postgresql.cpp	/^int connection::disconnect()$/;"	f	class:connection	signature:()
+connection::err_report	db/mysql/_mysql.cpp	/^void connection::err_report()$/;"	f	class:connection	signature:()
+connection::err_report	db/oracle/_ooci.cpp	/^void connection::err_report()$/;"	f	class:connection	signature:()
+connection::execute	db/mysql/_mysql.cpp	/^int connection::execute(const char *fmt,...)$/;"	f	class:connection	signature:(const char *fmt,...)
+connection::execute	db/oracle/_ooci.cpp	/^int connection::execute(const char *fmt,...) $/;"	f	class:connection	signature:(const char *fmt,...)
+connection::execute	db/postgresql/_postgresql.cpp	/^int connection::execute(const char *fmt,...)$/;"	f	class:connection	signature:(const char *fmt,...)
+connection::rollback	db/mysql/_mysql.cpp	/^int connection::rollback()$/;"	f	class:connection	signature:()
+connection::rollback	db/oracle/_ooci.cpp	/^int connection::rollback()$/;"	f	class:connection	signature:()
+connection::rollback	db/postgresql/_postgresql.cpp	/^int connection::rollback()$/;"	f	class:connection	signature:()
+connection::setdbopt	db/mysql/_mysql.cpp	/^void connection::setdbopt(char *connstr)$/;"	f	class:connection	signature:(char *connstr)
+connection::setdbopt	db/oracle/_ooci.cpp	/^void connection::setdbopt(char *connstr)$/;"	f	class:connection	signature:(char *connstr)
+connection::~connection	db/mysql/_mysql.cpp	/^connection::~connection()$/;"	f	class:connection	signature:()
+connection::~connection	db/oracle/_ooci.cpp	/^connection::~connection()$/;"	f	class:connection	signature:()
+connection::~connection	db/postgresql/_postgresql.cpp	/^connection::~connection()$/;"	f	class:connection	signature:()
+connecttodb	db/mysql/_mysql.cpp	/^int connection::connecttodb(char *connstr,char *charset,unsigned int autocommitopt)$/;"	f	class:connection	signature:(char *connstr,char *charset,unsigned int autocommitopt)
+connecttodb	db/oracle/_ooci.cpp	/^int connection::connecttodb(char *connstr,char *charset,int autocommitopt)$/;"	f	class:connection	signature:(char *connstr,char *charset,int autocommitopt)
+connecttodb	db/postgresql/_postgresql.cpp	/^int connection::connecttodb(char *connstr,char *charset,unsigned int autocommitopt)$/;"	f	class:connection	signature:(char *connstr,char *charset,unsigned int autocommitopt)
+connstr	demo/demo45.cpp	/^  char connstr[101];$/;"	m	struct:st_args	file:	access:public
+cput	ftplib.c	/^    char *cput,*cget;$/;"	m	struct:NetBuf	file:	access:public
+ctrl	ftplib.c	/^    netbuf *ctrl;$/;"	m	struct:NetBuf	file:	access:public
+data	ftplib.c	/^    netbuf *data;    $/;"	m	struct:NetBuf	file:	access:public
+datapath	demo/demo45.cpp	/^  char datapath[301];$/;"	m	struct:st_args	file:	access:public
+dbname	db/mysql/_mysql.h	/^  char dbname[51];   \/\/ 登录后，缺省打开的数据库。$/;"	m	struct:LOGINENV	access:public
+defhp	db/oracle/_ooci.h	/^  OCIDefine  *defhp;$/;"	m	struct:OCI_HANDLE	access:public
+dir	_ftp.cpp	/^bool Cftp::dir(const char *remotedir,const char *listfilename)$/;"	f	class:Cftp	signature:(const char *remotedir,const char *listfilename)
+dir	ftplib.c	/^    int dir;$/;"	m	struct:NetBuf	file:	access:public
+disconnect	db/mysql/_mysql.cpp	/^int connection::disconnect()$/;"	f	class:connection	signature:()
+disconnect	db/mysql/_mysql.cpp	/^int sqlstatement::disconnect()$/;"	f	class:sqlstatement	signature:()
+disconnect	db/oracle/_ooci.cpp	/^int connection::disconnect()$/;"	f	class:connection	signature:()
+disconnect	db/oracle/_ooci.cpp	/^int sqlstatement::disconnect()$/;"	f	class:sqlstatement	signature:()
+disconnect	db/postgresql/_postgresql.cpp	/^int connection::disconnect()$/;"	f	class:connection	signature:()
+disconnect	db/postgresql/_postgresql.cpp	/^int sqlstatement::disconnect()$/;"	f	class:sqlstatement	signature:()
+envhp	db/oracle/_ooci.h	/^  OCIEnv     *envhp; \/\/ 环境变量的句柄。$/;"	m	struct:OCI_CXT	access:public
+envhp	db/oracle/_ooci.h	/^  OCIEnv     *envhp; \/\/ 环境变量的句柄。$/;"	m	struct:OCI_HANDLE	access:public
+envhp	db/oracle/_ooci.h	/^  OCIEnv *envhp;     \/\/ 环境变量的句柄。$/;"	m	struct:LOGINENV	access:public
+err_report	db/mysql/_mysql.cpp	/^void connection::err_report()$/;"	f	class:connection	signature:()
+err_report	db/mysql/_mysql.cpp	/^void sqlstatement::err_report()$/;"	f	class:sqlstatement	signature:()
+err_report	db/oracle/_ooci.cpp	/^void connection::err_report()$/;"	f	class:connection	signature:()
+err_report	db/oracle/_ooci.cpp	/^void sqlstatement::err_report()$/;"	f	class:sqlstatement	signature:()
+errhp	db/oracle/_ooci.h	/^  OCIError   *errhp; \/\/ 错误句柄引用context句柄。$/;"	m	struct:OCI_HANDLE	access:public
+errhp	db/oracle/_ooci.h	/^  OCIError   *errhp;$/;"	m	struct:OCI_CXT	access:public
+execute	db/mysql/_mysql.cpp	/^int connection::execute(const char *fmt,...)$/;"	f	class:connection	signature:(const char *fmt,...)
+execute	db/mysql/_mysql.cpp	/^int sqlstatement::execute()$/;"	f	class:sqlstatement	signature:()
+execute	db/mysql/_mysql.cpp	/^int sqlstatement::execute(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+execute	db/oracle/_ooci.cpp	/^int connection::execute(const char *fmt,...) $/;"	f	class:connection	signature:(const char *fmt,...)
+execute	db/oracle/_ooci.cpp	/^int sqlstatement::execute() $/;"	f	class:sqlstatement	signature:()
+execute	db/oracle/_ooci.cpp	/^int sqlstatement::execute(const char *fmt,...) $/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+execute	db/postgresql/_postgresql.cpp	/^int connection::execute(const char *fmt,...)$/;"	f	class:connection	signature:(const char *fmt,...)
+execute	db/postgresql/_postgresql.cpp	/^int sqlstatement::execute()$/;"	f	class:sqlstatement	signature:()
+execute	db/postgresql/_postgresql.cpp	/^int sqlstatement::execute(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+file_length	db/oracle/_ooci.cpp	/^ub4 file_length(FILE *fp)$/;"	f	signature:(FILE *fp)
+filename	_freecplus.h	/^  char filename[301];$/;"	m	struct:st_fileinfo	access:public
+filesize	_freecplus.h	/^  int  filesize;$/;"	m	struct:st_fileinfo	access:public
+filetolob	db/oracle/_ooci.cpp	/^int  sqlstatement::filetolob(char *filename)$/;"	f	class:sqlstatement	signature:(char *filename)
+filetolob	db/oracle/_ooci.cpp	/^int sqlstatement::filetolob(FILE *fp)$/;"	f	class:sqlstatement	signature:(FILE *fp)
+freelob	db/oracle/_ooci.cpp	/^void sqlstatement::freelob()$/;"	f	class:sqlstatement	signature:()
+fsz_t	ftplib.h	/^typedef uint32_t fsz_t;$/;"	t
+fsz_t	ftplib.h	/^typedef uint64_t fsz_t;$/;"	t
+ftpdelete	_ftp.cpp	/^bool Cftp::ftpdelete(const char *remotefilename)$/;"	f	class:Cftp	signature:(const char *remotefilename)
+ftplib_debug	ftplib.c	/^GLOBALDEF int ftplib_debug = 0;$/;"	v
+ftplib_debug	ftplib.h	/^GLOBALREF int ftplib_debug;$/;"	v
+ftprename	_ftp.cpp	/^bool Cftp::ftprename(const char *srcremotefilename,const char *dstremotefilename)$/;"	f	class:Cftp	signature:(const char *srcremotefilename,const char *dstremotefilename)
+get	_ftp.cpp	/^bool Cftp::get(const char *remotefilename,const char *localfilename,const bool bCheckMTime)$/;"	f	class:Cftp	signature:(const char *remotefilename,const char *localfilename,const bool bCheckMTime)
+handle	ftplib.c	/^    int handle;$/;"	m	struct:NetBuf	file:	access:public
+id	db/mysql/inserttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+id	db/mysql/selecttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+id	db/oracle/inserttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+id	db/oracle/selecttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+id	db/postgresql/inserttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+id	db/postgresql/selecttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+idleTime	ftplib.h	/^    unsigned int idleTime;	\/* callback if this many milliseconds have elapsed *\/$/;"	m	struct:FtpCallbackOptions	access:public
+idlearg	ftplib.c	/^    void *idlearg;$/;"	m	struct:NetBuf	file:	access:public
+idlecb	ftplib.c	/^    FtpCallback idlecb;$/;"	m	struct:NetBuf	file:	access:public
+idletime	ftplib.c	/^    struct timeval idletime;$/;"	m	struct:NetBuf	typeref:struct:NetBuf::timeval	file:	access:public
+initdata	_freecplus.cpp	/^void CDir::initdata()$/;"	f	class:CDir	signature:()
+initdata	_ftp.cpp	/^void Cftp::initdata()$/;"	f	class:Cftp	signature:()
+initial	db/mysql/_mysql.cpp	/^void sqlstatement::initial()$/;"	f	class:sqlstatement	signature:()
+initial	db/postgresql/_postgresql.cpp	/^void sqlstatement::initial()$/;"	f	class:sqlstatement	signature:()
+ip	db/mysql/_mysql.h	/^  char ip[32];       \/\/ MySQL数据库的ip地址。$/;"	m	struct:LOGINENV	access:public
+lobtofile	db/oracle/_ooci.cpp	/^int  sqlstatement::lobtofile(char *filename)$/;"	f	class:sqlstatement	signature:(char *filename)
+lobtofile	db/oracle/_ooci.cpp	/^int sqlstatement::lobtofile(FILE *fp)$/;"	f	class:sqlstatement	signature:(FILE *fp)
+login	_ftp.cpp	/^bool Cftp::login(const char *host,const char *username,const char *password,const int imode)$/;"	f	class:Cftp	signature:(const char *host,const char *username,const char *password,const int imode)
+logout	_ftp.cpp	/^bool Cftp::logout()$/;"	f	class:Cftp	signature:()
+logpath	demo/demo45.cpp	/^  char logpath[301];$/;"	m	struct:st_args	file:	access:public
+main	db/mysql/counttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/mysql/createtable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/mysql/deletetable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/mysql/inserttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/mysql/selecttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/mysql/updatetable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/blobtofile.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/clobtofile.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/counttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/createtable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/deletetable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/execplsql.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/filetoblob.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/filetoclob.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/inserttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/selecttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/oracle/updatetable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/postgresql/counttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/postgresql/createtable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/postgresql/deletetable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/postgresql/inserttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/postgresql/selecttable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	db/postgresql/updatetable.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo1.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo10.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo12.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo14.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo16.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo18.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo2.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo20.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo21.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo22.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo24.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo26.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo28.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo29.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo30.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo32.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo34.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo36.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo37.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo39.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo4.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo40.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo42.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo43.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo45.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo47.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo48.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo5.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo50.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo51.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo52.cpp	/^int main(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+main	demo/demo7.cpp	/^int main()$/;"	f	signature:()
+main	demo/demo8.cpp	/^int main()$/;"	f	signature:()
+memccpy	ftplib.c	/^void *memccpy(void *dest, const void *src, int c, size_t n)$/;"	f	signature:(void *dest, const void *src, int c, size_t n)
+message	db/mysql/_mysql.h	/^  char     message[2048];  \/\/ 执行SQL语句如果失败，存放错误描述信息。$/;"	m	struct:CDA_DEF	access:public
+message	db/oracle/_ooci.h	/^  char     message[2048];  \/\/ 执行SQL语句如果失败，存放错误描述信息。$/;"	m	struct:CDA_DEF	access:public
+message	db/postgresql/_postgresql.h	/^  char     message[2048];  \/\/ 执行SQL语句如果失败，存放错误描述信息。$/;"	m	struct:CDA_DEF	access:public
+mkdir	_ftp.cpp	/^bool Cftp::mkdir(const char *remotedir)$/;"	f	class:Cftp	signature:(const char *remotedir)
+mtime	_freecplus.h	/^  char mtime[21];$/;"	m	struct:st_fileinfo	access:public
+mtime	_ftp.cpp	/^bool Cftp::mtime(const char *remotefilename)$/;"	f	class:Cftp	signature:(const char *remotefilename)
+name	db/mysql/inserttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+name	db/mysql/selecttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+name	db/oracle/inserttable.cpp	/^  char name[30];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+name	db/oracle/selecttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+name	db/postgresql/inserttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+name	db/postgresql/selecttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+name	demo/demo20.cpp	/^  char name[51];    \/\/ 姓名$/;"	m	struct:st_player	file:	access:public
+name	demo/demo22.cpp	/^  char name[51];    \/\/ 姓名$/;"	m	struct:st_player	file:	access:public
+net_close	ftplib.c	146;"	d	file:
+net_close	ftplib.c	150;"	d	file:
+net_read	ftplib.c	/^int net_read(int fd, char *buf, size_t len)$/;"	f	signature:(int fd, char *buf, size_t len)
+net_read	ftplib.c	148;"	d	file:
+net_write	ftplib.c	/^int net_write(int fd, const char *buf, size_t len)$/;"	f	signature:(int fd, const char *buf, size_t len)
+net_write	ftplib.c	149;"	d	file:
+netbuf	ftplib.h	/^typedef struct NetBuf netbuf;$/;"	t	typeref:struct:NetBuf
+next	db/mysql/_mysql.cpp	/^int sqlstatement::next()$/;"	f	class:sqlstatement	signature:()
+next	db/oracle/_ooci.cpp	/^int sqlstatement::next() $/;"	f	class:sqlstatement	signature:()
+next	db/postgresql/_postgresql.cpp	/^int sqlstatement::next()$/;"	f	class:sqlstatement	signature:()
+nlist	_ftp.cpp	/^bool Cftp::nlist(const char *remotedir,const char *listfilename)$/;"	f	class:Cftp	signature:(const char *remotedir,const char *listfilename)
+no	demo/demo20.cpp	/^  char no[6];       \/\/ 球衣号码$/;"	m	struct:st_player	file:	access:public
+no	demo/demo22.cpp	/^  char no[6];       \/\/ 球衣号码$/;"	m	struct:st_player	file:	access:public
+oci_close	db/oracle/_ooci.cpp	/^int oci_close(LOGINENV *env)$/;"	f	signature:(LOGINENV *env)
+oci_close	db/oracle/_ooci.h	/^int oci_close(LOGINENV *env); $/;"	p	signature:(LOGINENV *env)
+oci_context_close	db/oracle/_ooci.cpp	/^int oci_context_close(OCI_CXT *cxt)$/;"	f	signature:(OCI_CXT *cxt)
+oci_context_close	db/oracle/_ooci.h	/^int oci_context_close(OCI_CXT *cxt);$/;"	p	signature:(OCI_CXT *cxt)
+oci_context_create	db/oracle/_ooci.cpp	/^int oci_context_create(LOGINENV *env,OCI_CXT *cxt )$/;"	f	signature:(LOGINENV *env,OCI_CXT *cxt )
+oci_context_create	db/oracle/_ooci.h	/^int oci_context_create(LOGINENV *env,OCI_CXT *cxt);$/;"	p	signature:(LOGINENV *env,OCI_CXT *cxt)
+oci_init	db/oracle/_ooci.cpp	/^int oci_init(LOGINENV *env)$/;"	f	signature:(LOGINENV *env)
+oci_init	db/oracle/_ooci.h	/^int oci_init(LOGINENV *env);$/;"	p	signature:(LOGINENV *env)
+oci_stmt_close	db/oracle/_ooci.cpp	/^int oci_stmt_close(OCI_HANDLE *handle)$/;"	f	signature:(OCI_HANDLE *handle)
+oci_stmt_close	db/oracle/_ooci.h	/^int oci_stmt_close(OCI_HANDLE *handle);$/;"	p	signature:(OCI_HANDLE *handle)
+oci_stmt_create	db/oracle/_ooci.cpp	/^int oci_stmt_create(OCI_CXT *cxt,OCI_HANDLE *handle )$/;"	f	signature:(OCI_CXT *cxt,OCI_HANDLE *handle )
+oci_stmt_create	db/oracle/_ooci.h	/^int oci_stmt_create(OCI_CXT *cxt,OCI_HANDLE *handle);$/;"	p	signature:(OCI_CXT *cxt,OCI_HANDLE *handle)
+online	demo/demo45.cpp	/^  bool online;$/;"	m	struct:st_args	file:	access:public
+pass	db/mysql/_mysql.h	/^  char pass[32];     \/\/ 登录MySQL数据库的密码。$/;"	m	struct:LOGINENV	access:public
+pass	db/oracle/_ooci.h	/^  char pass[32];     \/\/ 数据库的密码。$/;"	m	struct:LOGINENV	access:public
+port	db/mysql/_mysql.h	/^  int  port;         \/\/ MySQL数据库的通信端口。$/;"	m	struct:LOGINENV	access:public
+port	demo/demo45.cpp	/^  int  port;$/;"	m	struct:st_args	file:	access:public
+prepare	db/mysql/_mysql.cpp	/^int sqlstatement::prepare(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+prepare	db/oracle/_ooci.cpp	/^int sqlstatement::prepare(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+prepare	db/postgresql/_postgresql.cpp	/^int sqlstatement::prepare(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+put	_ftp.cpp	/^bool Cftp::put(const char *localfilename,const char *remotefilename,const bool bCheckSize)$/;"	f	class:Cftp	signature:(const char *localfilename,const char *remotefilename,const bool bCheckSize)
+rc	db/mysql/_mysql.h	/^  int      rc;          \/\/ 返回值：0-成功，其它失败。$/;"	m	struct:CDA_DEF	access:public
+rc	db/oracle/_ooci.h	/^  int      rc;          \/\/ 返回值：0-成功，其它失败。$/;"	m	struct:CDA_DEF	access:public
+rc	db/postgresql/_postgresql.h	/^  int      rc;          \/\/ 返回值：0-成功，其它失败。$/;"	m	struct:CDA_DEF	access:public
+readline	ftplib.c	/^static int readline(char *buf,int max,netbuf *ctl)$/;"	f	file:	signature:(char *buf,int max,netbuf *ctl)
+readresp	ftplib.c	/^static int readresp(char c, netbuf *nControl)$/;"	f	file:	signature:(char c, netbuf *nControl)
+response	_ftp.cpp	/^char *Cftp::response()$/;"	f	class:Cftp	signature:()
+response	ftplib.c	/^    char response[RESPONSE_BUFSIZ];$/;"	m	struct:NetBuf	file:	access:public
+rmdir	_ftp.cpp	/^bool Cftp::rmdir(const char *remotedir)$/;"	f	class:Cftp	signature:(const char *remotedir)
+rollback	db/mysql/_mysql.cpp	/^int connection::rollback()$/;"	f	class:connection	signature:()
+rollback	db/oracle/_ooci.cpp	/^int connection::rollback()$/;"	f	class:connection	signature:()
+rollback	db/postgresql/_postgresql.cpp	/^int connection::rollback()$/;"	f	class:connection	signature:()
+rpc	db/mysql/_mysql.h	/^  unsigned long rpc;    \/\/ 如果是insert、update和delete，保存影响记录的行数，如果是select，保存结果集的行数。$/;"	m	struct:CDA_DEF	access:public
+rpc	db/oracle/_ooci.h	/^  unsigned long rpc;    \/\/ 如果是insert、update和delete，保存影响记录的行数，如果是select，保存结果集的行数。$/;"	m	struct:CDA_DEF	access:public
+rpc	db/postgresql/_postgresql.h	/^  unsigned long rpc;    \/\/ 如果是insert、update和delete，保存影响记录的行数，如果是select，保存结果集的行数。$/;"	m	struct:CDA_DEF	access:public
+sal	demo/demo20.cpp	/^  long sal;         \/\/ 年薪，欧元。$/;"	m	struct:st_player	file:	access:public
+sal	demo/demo22.cpp	/^  long sal;         \/\/ 年薪，欧元。$/;"	m	struct:st_player	file:	access:public
+serverip	demo/demo45.cpp	/^  char serverip[51];$/;"	m	struct:st_args	file:	access:public
+setdbopt	db/mysql/_mysql.cpp	/^void connection::setdbopt(char *connstr)$/;"	f	class:connection	signature:(char *connstr)
+setdbopt	db/oracle/_ooci.cpp	/^void connection::setdbopt(char *connstr)$/;"	f	class:connection	signature:(char *connstr)
+site	_ftp.cpp	/^bool Cftp::site(const char *command)$/;"	f	class:Cftp	signature:(const char *command)
+size	_ftp.cpp	/^bool Cftp::size(const char *remotefilename)$/;"	f	class:Cftp	signature:(const char *remotefilename)
+smthp	db/oracle/_ooci.h	/^  OCIStmt    *smthp;$/;"	m	struct:OCI_HANDLE	access:public
+socket_wait	ftplib.c	/^static int socket_wait(netbuf *ctl)$/;"	f	file:	signature:(netbuf *ctl)
+sqlstatement	db/mysql/_mysql.cpp	/^sqlstatement::sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement	db/mysql/_mysql.cpp	/^sqlstatement::sqlstatement(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+sqlstatement	db/oracle/_ooci.cpp	/^sqlstatement::sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement	db/oracle/_ooci.cpp	/^sqlstatement::sqlstatement(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+sqlstatement	db/postgresql/_postgresql.cpp	/^sqlstatement::sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement	db/postgresql/_postgresql.cpp	/^sqlstatement::sqlstatement(connection *in_conn)$/;"	f	class:sqlstatement	signature:(connection *in_conn)
+sqlstatement::alloclob	db/oracle/_ooci.cpp	/^int sqlstatement::alloclob()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::bindblob	db/oracle/_ooci.cpp	/^int sqlstatement::bindblob()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::bindclob	db/oracle/_ooci.cpp	/^int sqlstatement::bindclob()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+sqlstatement::bindin	db/mysql/_mysql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+sqlstatement::bindin	db/oracle/_ooci.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+sqlstatement::bindin	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindin(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+sqlstatement::bindout	db/mysql/_mysql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+sqlstatement::bindout	db/oracle/_ooci.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,char *value,unsigned int len)$/;"	f	class:sqlstatement	signature:(unsigned int position,char *value,unsigned int len)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,double *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,double *value)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,float *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,float *value)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,int *value)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,long *value)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned int *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned int *value)
+sqlstatement::bindout	db/postgresql/_postgresql.cpp	/^int sqlstatement::bindout(unsigned int position,unsigned long *value)$/;"	f	class:sqlstatement	signature:(unsigned int position,unsigned long *value)
+sqlstatement::connect	db/mysql/_mysql.cpp	/^int sqlstatement::connect(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+sqlstatement::connect	db/oracle/_ooci.cpp	/^int sqlstatement::connect(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+sqlstatement::connect	db/postgresql/_postgresql.cpp	/^int sqlstatement::connect(connection *in_conn)$/;"	f	class:sqlstatement	signature:(connection *in_conn)
+sqlstatement::disconnect	db/mysql/_mysql.cpp	/^int sqlstatement::disconnect()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::disconnect	db/oracle/_ooci.cpp	/^int sqlstatement::disconnect()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::disconnect	db/postgresql/_postgresql.cpp	/^int sqlstatement::disconnect()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::err_report	db/mysql/_mysql.cpp	/^void sqlstatement::err_report()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::err_report	db/oracle/_ooci.cpp	/^void sqlstatement::err_report()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::execute	db/mysql/_mysql.cpp	/^int sqlstatement::execute()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::execute	db/mysql/_mysql.cpp	/^int sqlstatement::execute(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+sqlstatement::execute	db/oracle/_ooci.cpp	/^int sqlstatement::execute() $/;"	f	class:sqlstatement	signature:()
+sqlstatement::execute	db/oracle/_ooci.cpp	/^int sqlstatement::execute(const char *fmt,...) $/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+sqlstatement::execute	db/postgresql/_postgresql.cpp	/^int sqlstatement::execute()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::execute	db/postgresql/_postgresql.cpp	/^int sqlstatement::execute(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+sqlstatement::filetolob	db/oracle/_ooci.cpp	/^int  sqlstatement::filetolob(char *filename)$/;"	f	class:sqlstatement	signature:(char *filename)
+sqlstatement::filetolob	db/oracle/_ooci.cpp	/^int sqlstatement::filetolob(FILE *fp)$/;"	f	class:sqlstatement	signature:(FILE *fp)
+sqlstatement::freelob	db/oracle/_ooci.cpp	/^void sqlstatement::freelob()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::initial	db/mysql/_mysql.cpp	/^void sqlstatement::initial()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::initial	db/postgresql/_postgresql.cpp	/^void sqlstatement::initial()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::lobtofile	db/oracle/_ooci.cpp	/^int  sqlstatement::lobtofile(char *filename)$/;"	f	class:sqlstatement	signature:(char *filename)
+sqlstatement::lobtofile	db/oracle/_ooci.cpp	/^int sqlstatement::lobtofile(FILE *fp)$/;"	f	class:sqlstatement	signature:(FILE *fp)
+sqlstatement::next	db/mysql/_mysql.cpp	/^int sqlstatement::next()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::next	db/oracle/_ooci.cpp	/^int sqlstatement::next() $/;"	f	class:sqlstatement	signature:()
+sqlstatement::next	db/postgresql/_postgresql.cpp	/^int sqlstatement::next()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::prepare	db/mysql/_mysql.cpp	/^int sqlstatement::prepare(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+sqlstatement::prepare	db/oracle/_ooci.cpp	/^int sqlstatement::prepare(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+sqlstatement::prepare	db/postgresql/_postgresql.cpp	/^int sqlstatement::prepare(const char *fmt,...)$/;"	f	class:sqlstatement	signature:(const char *fmt,...)
+sqlstatement::sqlstatement	db/mysql/_mysql.cpp	/^sqlstatement::sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::sqlstatement	db/mysql/_mysql.cpp	/^sqlstatement::sqlstatement(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+sqlstatement::sqlstatement	db/oracle/_ooci.cpp	/^sqlstatement::sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::sqlstatement	db/oracle/_ooci.cpp	/^sqlstatement::sqlstatement(connection *conn)$/;"	f	class:sqlstatement	signature:(connection *conn)
+sqlstatement::sqlstatement	db/postgresql/_postgresql.cpp	/^sqlstatement::sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::sqlstatement	db/postgresql/_postgresql.cpp	/^sqlstatement::sqlstatement(connection *in_conn)$/;"	f	class:sqlstatement	signature:(connection *in_conn)
+sqlstatement::~sqlstatement	db/mysql/_mysql.cpp	/^sqlstatement::~sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::~sqlstatement	db/oracle/_ooci.cpp	/^sqlstatement::~sqlstatement()$/;"	f	class:sqlstatement	signature:()
+sqlstatement::~sqlstatement	db/postgresql/_postgresql.cpp	/^sqlstatement::~sqlstatement()$/;"	f	class:sqlstatement	signature:()
+st_args	demo/demo45.cpp	/^struct st_args$/;"	s	file:
+st_args::connstr	demo/demo45.cpp	/^  char connstr[101];$/;"	m	struct:st_args	file:	access:public
+st_args::datapath	demo/demo45.cpp	/^  char datapath[301];$/;"	m	struct:st_args	file:	access:public
+st_args::logpath	demo/demo45.cpp	/^  char logpath[301];$/;"	m	struct:st_args	file:	access:public
+st_args::online	demo/demo45.cpp	/^  bool online;$/;"	m	struct:st_args	file:	access:public
+st_args::port	demo/demo45.cpp	/^  int  port;$/;"	m	struct:st_args	file:	access:public
+st_args::serverip	demo/demo45.cpp	/^  char serverip[51];$/;"	m	struct:st_args	file:	access:public
+st_fileinfo	_freecplus.h	/^struct st_fileinfo$/;"	s
+st_fileinfo::filename	_freecplus.h	/^  char filename[301];$/;"	m	struct:st_fileinfo	access:public
+st_fileinfo::filesize	_freecplus.h	/^  int  filesize;$/;"	m	struct:st_fileinfo	access:public
+st_fileinfo::mtime	_freecplus.h	/^  char mtime[21];$/;"	m	struct:st_fileinfo	access:public
+st_girls	db/mysql/inserttable.cpp	/^struct st_girls$/;"	s	file:
+st_girls	db/mysql/selecttable.cpp	/^struct st_girls$/;"	s	file:
+st_girls	db/oracle/inserttable.cpp	/^struct st_girls$/;"	s	file:
+st_girls	db/oracle/selecttable.cpp	/^struct st_girls$/;"	s	file:
+st_girls	db/postgresql/inserttable.cpp	/^struct st_girls$/;"	s	file:
+st_girls	db/postgresql/selecttable.cpp	/^struct st_girls$/;"	s	file:
+st_girls::btime	db/mysql/inserttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ssi'。$/;"	m	struct:st_girls	file:	access:public
+st_girls::btime	db/mysql/selecttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ss'。$/;"	m	struct:st_girls	file:	access:public
+st_girls::btime	db/oracle/inserttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ssi'。$/;"	m	struct:st_girls	file:	access:public
+st_girls::btime	db/oracle/selecttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ss'。$/;"	m	struct:st_girls	file:	access:public
+st_girls::btime	db/postgresql/inserttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ssi'。$/;"	m	struct:st_girls	file:	access:public
+st_girls::btime	db/postgresql/selecttable.cpp	/^  char btime[20]; \/\/ 报名时间，用char对应Oracle的date，格式：'yyyy-mm-dd hh24:mi:ss'。$/;"	m	struct:st_girls	file:	access:public
+st_girls::id	db/mysql/inserttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::id	db/mysql/selecttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::id	db/oracle/inserttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::id	db/oracle/selecttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::id	db/postgresql/inserttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::id	db/postgresql/selecttable.cpp	/^  long id;        \/\/ 超女编号，用long数据类型对应Oracle无小数的number(10)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::name	db/mysql/inserttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::name	db/mysql/selecttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::name	db/oracle/inserttable.cpp	/^  char name[30];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::name	db/oracle/selecttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::name	db/postgresql/inserttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::name	db/postgresql/selecttable.cpp	/^  char name[31];  \/\/ 超女姓名，用char[31]对应Oracle的varchar2(30)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::weight	db/mysql/inserttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::weight	db/mysql/selecttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::weight	db/oracle/inserttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::weight	db/oracle/selecttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::weight	db/postgresql/inserttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+st_girls::weight	db/postgresql/selecttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+st_player	demo/demo20.cpp	/^struct st_player$/;"	s	file:
+st_player	demo/demo22.cpp	/^struct st_player$/;"	s	file:
+st_player::age	demo/demo20.cpp	/^  int  age;         \/\/ 年龄$/;"	m	struct:st_player	file:	access:public
+st_player::age	demo/demo22.cpp	/^  int  age;         \/\/ 年龄$/;"	m	struct:st_player	file:	access:public
+st_player::club	demo/demo20.cpp	/^  char club[51];    \/\/ 效力的俱乐部$/;"	m	struct:st_player	file:	access:public
+st_player::club	demo/demo22.cpp	/^  char club[51];    \/\/ 效力的俱乐部$/;"	m	struct:st_player	file:	access:public
+st_player::name	demo/demo20.cpp	/^  char name[51];    \/\/ 姓名$/;"	m	struct:st_player	file:	access:public
+st_player::name	demo/demo22.cpp	/^  char name[51];    \/\/ 姓名$/;"	m	struct:st_player	file:	access:public
+st_player::no	demo/demo20.cpp	/^  char no[6];       \/\/ 球衣号码$/;"	m	struct:st_player	file:	access:public
+st_player::no	demo/demo22.cpp	/^  char no[6];       \/\/ 球衣号码$/;"	m	struct:st_player	file:	access:public
+st_player::sal	demo/demo20.cpp	/^  long sal;         \/\/ 年薪，欧元。$/;"	m	struct:st_player	file:	access:public
+st_player::sal	demo/demo22.cpp	/^  long sal;         \/\/ 年薪，欧元。$/;"	m	struct:st_player	file:	access:public
+st_player::striker	demo/demo20.cpp	/^  bool striker;     \/\/ 场上位置是否是前锋，true-是；false-不是。$/;"	m	struct:st_player	file:	access:public
+st_player::striker	demo/demo22.cpp	/^  bool striker;     \/\/ 场上位置是否是前锋，true-是；false-不是。$/;"	m	struct:st_player	file:	access:public
+st_player::weight	demo/demo20.cpp	/^  double weight;    \/\/ 体重，kg。$/;"	m	struct:st_player	file:	access:public
+st_player::weight	demo/demo22.cpp	/^  double weight;    \/\/ 体重，kg。$/;"	m	struct:st_player	file:	access:public
+stargs	demo/demo45.cpp	/^}stargs;$/;"	v	typeref:struct:st_args
+std	_cmpublic.h	/^using namespace std;$/;"	v
+stgirls	db/mysql/inserttable.cpp	/^} stgirls;$/;"	v	typeref:struct:st_girls
+stgirls	db/mysql/selecttable.cpp	/^} stgirls;$/;"	v	typeref:struct:st_girls
+stgirls	db/oracle/inserttable.cpp	/^} stgirls;$/;"	v	typeref:struct:st_girls
+stgirls	db/oracle/selecttable.cpp	/^} stgirls;$/;"	v	typeref:struct:st_girls
+stgirls	db/postgresql/inserttable.cpp	/^} stgirls;$/;"	v	typeref:struct:st_girls
+stgirls	db/postgresql/selecttable.cpp	/^} stgirls;$/;"	v	typeref:struct:st_girls
+stplayer	demo/demo20.cpp	/^}stplayer;$/;"	v	typeref:struct:st_player
+stplayer	demo/demo22.cpp	/^}stplayer;$/;"	v	typeref:struct:st_player
+strdup	ftplib.c	/^char *strdup(const char *src)$/;"	f	signature:(const char *src)
+striker	demo/demo20.cpp	/^  bool striker;     \/\/ 场上位置是否是前锋，true-是；false-不是。$/;"	m	struct:st_player	file:	access:public
+striker	demo/demo22.cpp	/^  bool striker;     \/\/ 场上位置是否是前锋，true-是；false-不是。$/;"	m	struct:st_player	file:	access:public
+strtotime	_freecplus.cpp	/^time_t strtotime(const char *stime)$/;"	f	signature:(const char *stime)
+strtotime	_freecplus.h	/^time_t strtotime(const char *stime);$/;"	p	signature:(const char *stime)
+svchp	db/oracle/_ooci.h	/^  OCISvcCtx  *svchp; \/\/ 服务器上下文的句柄引用context句柄。$/;"	m	struct:OCI_HANDLE	access:public
+svchp	db/oracle/_ooci.h	/^  OCISvcCtx  *svchp;$/;"	m	struct:OCI_CXT	access:public
+timetostr	_freecplus.cpp	/^void timetostr(const time_t ltime,char *stime,const char *fmt)$/;"	f	signature:(const time_t ltime,char *stime,const char *fmt)
+timetostr	_freecplus.h	/^void timetostr(const time_t ltime,char *stime,const char *fmt=0);$/;"	p	signature:(const time_t ltime,char *stime,const char *fmt=0)
+tnsname	db/oracle/_ooci.h	/^  char tnsname[51];  \/\/ 数据库的tnsname，在ORACLE_HOME\/network\/admin\/tnsnames.ora中配置。$/;"	m	struct:LOGINENV	access:public
+user	db/mysql/_mysql.h	/^  char user[32];     \/\/ 登录MySQL数据库的用户名。$/;"	m	struct:LOGINENV	access:public
+user	db/oracle/_ooci.h	/^  char user[32];     \/\/ 数据库的用户名。$/;"	m	struct:LOGINENV	access:public
+version	ftplib.c	/^static char *version =$/;"	v	file:
+weight	db/mysql/inserttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+weight	db/mysql/selecttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+weight	db/oracle/inserttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+weight	db/oracle/selecttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+weight	db/postgresql/inserttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+weight	db/postgresql/selecttable.cpp	/^  double weight;  \/\/ 超女体重，用double数据类型对应Oracle有小数的number(8,2)。$/;"	m	struct:st_girls	file:	access:public
+weight	demo/demo20.cpp	/^  double weight;    \/\/ 体重，kg。$/;"	m	struct:st_player	file:	access:public
+weight	demo/demo22.cpp	/^  double weight;    \/\/ 体重，kg。$/;"	m	struct:st_player	file:	access:public
+writeline	ftplib.c	/^static int writeline(const char *buf, int len, netbuf *nData)$/;"	f	file:	signature:(const char *buf, int len, netbuf *nData)
+xfered	ftplib.c	/^    unsigned long int xfered;$/;"	m	struct:NetBuf	file:	access:public
+xfered1	ftplib.c	/^    unsigned long int xfered1;$/;"	m	struct:NetBuf	file:	access:public
+~CCmdStr	_freecplus.cpp	/^CCmdStr::~CCmdStr()$/;"	f	class:CCmdStr	signature:()
+~CDir	_freecplus.cpp	/^CDir::~CDir()$/;"	f	class:CDir	signature:()
+~CFile	_freecplus.cpp	/^CFile::~CFile()   \/\/ 类的析构函数$/;"	f	class:CFile	signature:()
+~CLogFile	_freecplus.cpp	/^CLogFile::~CLogFile()$/;"	f	class:CLogFile	signature:()
+~CTcpClient	_freecplus.cpp	/^CTcpClient::~CTcpClient()$/;"	f	class:CTcpClient	signature:()
+~CTcpServer	_freecplus.cpp	/^CTcpServer::~CTcpServer()$/;"	f	class:CTcpServer	signature:()
+~Cftp	_ftp.cpp	/^Cftp::~Cftp()$/;"	f	class:Cftp	signature:()
+~connection	db/mysql/_mysql.cpp	/^connection::~connection()$/;"	f	class:connection	signature:()
+~connection	db/oracle/_ooci.cpp	/^connection::~connection()$/;"	f	class:connection	signature:()
+~connection	db/postgresql/_postgresql.cpp	/^connection::~connection()$/;"	f	class:connection	signature:()
+~sqlstatement	db/mysql/_mysql.cpp	/^sqlstatement::~sqlstatement()$/;"	f	class:sqlstatement	signature:()
+~sqlstatement	db/oracle/_ooci.cpp	/^sqlstatement::~sqlstatement()$/;"	f	class:sqlstatement	signature:()
+~sqlstatement	db/postgresql/_postgresql.cpp	/^sqlstatement::~sqlstatement()$/;"	f	class:sqlstatement	signature:()

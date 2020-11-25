@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC := g++$/;"	m
+Calculate	Circle.cpp	/^float Circle::Calculate() {$/;"	f	class:Circle
+Calculate	Cube.cpp	/^float Cube::Calculate() {$/;"	f	class:Cube
+Circle	Circle.hpp	/^		Circle(float r):radius(r){}$/;"	f	class:Circle
+Circle	Circle.hpp	/^class Circle {$/;"	c
+Cube	Cube.hpp	/^		Cube(float w):width(w){}$/;"	f	class:Cube
+Cube	Cube.hpp	/^class Cube {$/;"	c
+OBJ	makefile	/^OBJ = Circle.o Cube.o main.o$/;"	m
+PI	Circle.hpp	4;"	d
+RMRF	makefile	/^RMRF := rm -rf$/;"	m
+TAR	makefile	/^TAR = test$/;"	m
+__CIRCLE_HPP__	Circle.hpp	2;"	d
+__CUBE_HPP__	Cube.hpp	2;"	d
+main	main.cpp	/^int main() {$/;"	f
+radius	Circle.hpp	/^		float radius;$/;"	m	class:Circle
+width	Cube.hpp	/^		float width;$/;"	m	class:Cube
