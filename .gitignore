@@ -13,3 +13,5 @@
 *.cpp~
 *.internal
 */.DS_Store
+.DS_Store
+socket/C/.DS_Store
